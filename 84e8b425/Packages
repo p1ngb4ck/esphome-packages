@@ -1,0 +1,148 @@
+Package: bme280
+Version: 0+9a73bced
+Depends: comp-bme280-base, comp-bme280-i2c
+Architecture: esp32p4
+ESPHome-ABI: 2229842981
+ESPHome-Flash: 8192
+ESPHome-PSRAM: 724
+ESPHome-IRAM: 0
+Filename: bme280_0+9a73bced_esp32p4.ipk
+Size: 5538
+SHA256sum: 52d611d454db2f11ada9c101ef3b182d76d23a90eb4490dc70348fbb5a397a4f
+Description: BME280
+
+Package: comp-bme280-base
+Version: 0+b9a9963a
+Architecture: esp32p4
+ESPHome-ABI: 2229842981
+ESPHome-Flash: 8192
+ESPHome-PSRAM: 220
+ESPHome-IRAM: 0
+Filename: comp-bme280-base_0+b9a9963a_esp32p4.ipk
+Size: 4028
+SHA256sum: cc13f727757248c9dfee435bdf057b119de1d3b7e0e8269285083c2729f3c336
+Description: Component bme280_base
+
+Package: comp-bme280-i2c
+Version: 0+137f1409
+Depends: comp-bme280-base
+Architecture: esp32p4
+ESPHome-ABI: 2229842981
+ESPHome-Flash: 4096
+ESPHome-PSRAM: 212
+ESPHome-IRAM: 0
+Filename: comp-bme280-i2c_0+137f1409_esp32p4.ipk
+Size: 1670
+SHA256sum: 0c3593b3b39c1ba383f33256d691046e86be6d40de12ef0cb86ff1b085b26994
+Description: Component bme280_i2c
+
+Package: comp-messenger
+Version: 0+70f6a199
+Depends: comp-mtproto
+Architecture: esp32p4
+ESPHome-ABI: 2229842981
+ESPHome-Flash: 131072
+ESPHome-PSRAM: 2108
+ESPHome-IRAM: 0
+Filename: comp-messenger_0+70f6a199_esp32p4.ipk
+Size: 73412
+SHA256sum: 83d71c09a32ccb8270e29c9a2bb74e85864b0ca0480da26d67fa784113a1794e
+Description: Component messenger
+
+Package: comp-mtproto
+Version: 0+9f7553ee
+Architecture: esp32p4
+ESPHome-ABI: 2229842981
+ESPHome-Flash: 126976
+ESPHome-PSRAM: 1232
+ESPHome-IRAM: 0
+Filename: comp-mtproto_0+9f7553ee_esp32p4.ipk
+Size: 58524
+SHA256sum: 38c8e8ffd7e47127408e8d7e4739f3e300b0636ba2820f5ea03a7199babcf06b
+Description: Component mtproto
+
+Package: comp-sip-phone
+Version: 0+64f65039
+Architecture: esp32p4
+ESPHome-ABI: 2229842981
+ESPHome-Flash: 65536
+ESPHome-PSRAM: 1596
+ESPHome-IRAM: 0
+Filename: comp-sip-phone_0+64f65039_esp32p4.ipk
+Size: 39252
+SHA256sum: f38604bde1f3a5dffab8a931133a44d41d6286c27e58e1ef943173b922127148
+Description: Component sip_phone
+
+Package: editor
+Version: 0+eefff511
+Architecture: esp32p4
+ESPHome-ABI: 2229842981
+ESPHome-Flash: 73728
+ESPHome-PSRAM: 8400
+ESPHome-IRAM: 0
+Filename: editor_0+eefff511_esp32p4.ipk
+Size: 33332
+SHA256sum: ba82f517b68a23d0b46cfadc58e43cf178d35c05df7f149487f880ec1ceb129f
+Description: Editor
+
+Package: file-manager
+Version: 0+3cb26130
+Architecture: esp32p4
+ESPHome-ABI: 2229842981
+ESPHome-Flash: 90112
+ESPHome-PSRAM: 8728
+ESPHome-IRAM: 0
+Filename: file-manager_0+3cb26130_esp32p4.ipk
+Size: 43708
+SHA256sum: e7ab2ee8fdb4fb0962f416308604feb03733c9aabaf6374acab88358481c7044
+Description: FileManager
+
+Package: flash-programmer
+Version: 0+2f70f370
+Architecture: esp32p4
+ESPHome-ABI: 2229842981
+ESPHome-Flash: 45056
+ESPHome-PSRAM: 3664
+ESPHome-IRAM: 0
+Filename: flash-programmer_0+2f70f370_esp32p4.ipk
+Size: 23156
+SHA256sum: 21f1e1b9e406bca3ad042ef6df77ae569259a3a8fd5cc38b3df6b3953280194d
+Description: FlashProgrammer
+
+Package: log-viewer
+Version: 0+38137012
+Architecture: esp32p4
+ESPHome-ABI: 2229842981
+ESPHome-Flash: 61440
+ESPHome-PSRAM: 7032
+ESPHome-IRAM: 0
+Filename: log-viewer_0+38137012_esp32p4.ipk
+Size: 29076
+SHA256sum: 8db3ccbb7227800683ff8fbf77348c5da85d618d0e01986a24dab4cef679a254
+Description: Log viewer
+
+Package: messenger
+Version: 0+a5823e0f
+Depends: comp-messenger, comp-mtproto
+Architecture: esp32p4
+ESPHome-ABI: 2229842981
+ESPHome-Flash: 159744
+ESPHome-PSRAM: 20796
+ESPHome-IRAM: 0
+Filename: messenger_0+a5823e0f_esp32p4.ipk
+Size: 70504
+SHA256sum: 03d11a35ae323c894e28b3b125f8ec46456eb98c0ff38d5a0222ba9d245e4a55
+Description: Messenger
+
+Package: sip-phone
+Version: 0+b59f5b39
+Depends: comp-sip-phone
+Architecture: esp32p4
+ESPHome-ABI: 2229842981
+ESPHome-Flash: 73728
+ESPHome-PSRAM: 8908
+ESPHome-IRAM: 0
+Filename: sip-phone_0+b59f5b39_esp32p4.ipk
+Size: 34862
+SHA256sum: 3968d8c594e998ff2db3967dfda7a20f8984426673a14b1a61612e8525aefb52
+Description: Phone
