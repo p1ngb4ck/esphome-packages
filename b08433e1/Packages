@@ -1,0 +1,286 @@
+Package: bme280
+Version: 0+9a73bced
+Depends: comp-bme280-base, comp-bme280-i2c
+Architecture: esp32p4
+Section: Sensors
+ESPHome-ABI: 2961454049
+ESPHome-Flash: 8192
+ESPHome-PSRAM: 9116
+ESPHome-IRAM: 0
+Filename: bme280_0+9a73bced_esp32p4.ipk
+Size: 5390
+SHA256sum: 4f48e558227f0b74a8e9a35f444b5b4f14f5c665cd4da00f6802596d7e483090
+Description: BME280
+
+Package: comp-bme280-base
+Version: 0+ef24a2ce
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2961454049
+ESPHome-Flash: 8192
+ESPHome-PSRAM: 8412
+ESPHome-IRAM: 0
+Filename: comp-bme280-base_0+ef24a2ce_esp32p4.ipk
+Size: 3958
+SHA256sum: 59298bf68131ac9e116e1e24f7c60574ec726106d216c7c77be9e366436bdbdf
+Description: Component bme280_base
+
+Package: comp-bme280-i2c
+Version: 0+8ba85f0d
+Depends: comp-bme280-base
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2961454049
+ESPHome-Flash: 4096
+ESPHome-PSRAM: 4308
+ESPHome-IRAM: 0
+Filename: comp-bme280-i2c_0+8ba85f0d_esp32p4.ipk
+Size: 1682
+SHA256sum: cb4acf367c2fdd4be77a73ea480b7ba392bfea7a6d2dbcc3cb1df0af9764dd03
+Description: Component bme280_i2c
+
+Package: comp-messenger
+Version: 0+70f6a199
+Depends: comp-mtproto
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2961454049
+ESPHome-Flash: 126976
+ESPHome-PSRAM: 129080
+ESPHome-IRAM: 0
+Filename: comp-messenger_0+70f6a199_esp32p4.ipk
+Size: 73274
+SHA256sum: c25c29cbd0a96478535885762e70127d24eae0ad26447f1df111ce85d8e9feda
+Description: Component messenger
+
+Package: comp-mtproto
+Version: 0+bd4c46b5
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2961454049
+ESPHome-Flash: 126976
+ESPHome-PSRAM: 124112
+ESPHome-IRAM: 0
+Filename: comp-mtproto_0+bd4c46b5_esp32p4.ipk
+Size: 58410
+SHA256sum: d746aeafd0ba55b90e20f2db132ba73b77f30f1bd6f215bf3f3c7a5b4f3c34e7
+Description: Component mtproto
+
+Package: comp-sip-phone
+Version: 0+64f65039
+Depends: lib-src
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2961454049
+ESPHome-Flash: 65536
+ESPHome-PSRAM: 67132
+ESPHome-IRAM: 0
+Filename: comp-sip-phone_0+64f65039_esp32p4.ipk
+Size: 39042
+SHA256sum: 49a4f5416dd5d9a9c560c334493e0f8a4f60b574e39ec4bfd613e615ada991c2
+Description: Component sip_phone
+
+Package: editor
+Version: 0+bb886d6c
+Architecture: esp32p4
+Section: Apps
+ESPHome-ABI: 2961454049
+ESPHome-Flash: 73728
+ESPHome-PSRAM: 73936
+ESPHome-IRAM: 0
+Filename: editor_0+bb886d6c_esp32p4.ipk
+Size: 33136
+SHA256sum: 52ece3ea61b7e198eed7ecf0729a57e74fe5e12cbc415176e28748a978646daf
+Description: Editor
+
+Package: emu-gb
+Version: 0+4380a985
+Architecture: esp32p4
+Section: Emulators
+ESPHome-ABI: 2961454049
+ESPHome-PSRAM: 53748
+Filename: emu-gb_0+4380a985_esp32p4.ipk
+Size: 37892
+SHA256sum: 899d17763d20fe33134395f57c24ccee36af60be4be1b2f87266e7028dba954f
+Description: Game Boy
+
+Package: emu-gw
+Version: 0+9e5c2a43
+Architecture: esp32p4
+Section: Emulators
+ESPHome-ABI: 2961454049
+ESPHome-PSRAM: 26132
+Filename: emu-gw_0+9e5c2a43_esp32p4.ipk
+Size: 21858
+SHA256sum: b13ecfc8147f6992ed682231f0e03624af53b02490fa99b70c86a14374e3807c
+Description: Game & Watch
+
+Package: emu-lynx
+Version: 0+f610fdc4
+Architecture: esp32p4
+Section: Emulators
+ESPHome-ABI: 2961454049
+ESPHome-PSRAM: 102604
+Filename: emu-lynx_0+f610fdc4_esp32p4.ipk
+Size: 57804
+SHA256sum: 59025b9f05e2bbea2247dfa9e34141204986947953c772c3a1daff6f6d004ae1
+Description: Lynx
+
+Package: emu-md
+Version: 0+ffba31e4
+Architecture: esp32p4
+Section: Emulators
+ESPHome-ABI: 2961454049
+ESPHome-PSRAM: 782560
+Filename: emu-md_0+ffba31e4_esp32p4.ipk
+Size: 128436
+SHA256sum: d1d599b2098a7993a01c499aa0e8781501ce02c357a547961f9f3b3e7c3a53ed
+Description: Mega Drive
+
+Package: emu-msx
+Version: 0+124bdec1
+Architecture: esp32p4
+Section: Emulators
+ESPHome-ABI: 2961454049
+ESPHome-PSRAM: 266304
+Filename: emu-msx_0+124bdec1_esp32p4.ipk
+Size: 120560
+SHA256sum: 4cd989271970fa9e64aa2f336e694055db09d5e7afa7bd224f56ba878c7d5d43
+Description: MSX
+
+Package: emu-nes
+Version: 0+238f58f9
+Architecture: esp32p4
+Section: Emulators
+ESPHome-ABI: 2961454049
+ESPHome-PSRAM: 131796
+Filename: emu-nes_0+238f58f9_esp32p4.ipk
+Size: 77372
+SHA256sum: 4ef47779f3c69884eb3c8881d50de67dc1a141c7a837d76d342de18b77ffac1a
+Description: NES
+
+Package: emu-pce
+Version: 0+75fe8388
+Architecture: esp32p4
+Section: Emulators
+ESPHome-ABI: 2961454049
+ESPHome-PSRAM: 57632
+Filename: emu-pce_0+75fe8388_esp32p4.ipk
+Size: 29768
+SHA256sum: f5e7afb4b0e055315b84837ca0e0ea34e4c24e372320ced066913a6aa2e381ea
+Description: PC Engine
+
+Package: emu-sms
+Version: 0+1621e9c7
+Architecture: esp32p4
+Section: Emulators
+ESPHome-ABI: 2961454049
+ESPHome-PSRAM: 98520
+Filename: emu-sms_0+1621e9c7_esp32p4.ipk
+Size: 52902
+SHA256sum: d6c8bddf8ab7e2ec7cb7ca7289cf730051a50bdcc7fc30fce1bfc256186d3112
+Description: Master System
+
+Package: emu-snes
+Version: 0+457d9e9d
+Architecture: esp32p4
+Section: Emulators
+ESPHome-ABI: 2961454049
+ESPHome-PSRAM: 233704
+Filename: emu-snes_0+457d9e9d_esp32p4.ipk
+Size: 130906
+SHA256sum: f99ad115eeca7f5aa5ff114ae7ebcd9e1fc828dd8833969da09a69688b73f67e
+Description: Super Nintendo
+
+Package: file-manager
+Version: 0+c621a048
+Architecture: esp32p4
+Section: Apps
+ESPHome-ABI: 2961454049
+ESPHome-Flash: 90112
+ESPHome-PSRAM: 90616
+ESPHome-IRAM: 0
+Filename: file-manager_0+c621a048_esp32p4.ipk
+Size: 43252
+SHA256sum: 504734f598b27728e29ac36971bffd60176bd6822dcb3f7157c11f7b168df61a
+Description: FileManager
+
+Package: flash-programmer
+Version: 0+4d3ea0b5
+Architecture: esp32p4
+Section: Apps
+ESPHome-ABI: 2961454049
+ESPHome-Flash: 45056
+ESPHome-PSRAM: 44632
+ESPHome-IRAM: 0
+Filename: flash-programmer_0+4d3ea0b5_esp32p4.ipk
+Size: 23032
+SHA256sum: 21457b9e473f8d18365592179e257d023d37df1fdf2425833a3026b4540e0973
+Description: FlashProgrammer
+
+Package: lib-esp-libsrtp
+Version: 0+e34915cc
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2961454049
+ESPHome-Flash: 49152
+ESPHome-PSRAM: 51536
+ESPHome-IRAM: 0
+Filename: lib-esp-libsrtp_0+e34915cc_esp32p4.ipk
+Size: 30104
+SHA256sum: 4c44dd21850c6eede196f82ecef5c5d52c5e744235a1055ecbab0fba275aa400
+Description: ESPHome package lib_esp_libsrtp
+
+Package: lib-src
+Version: 0+d0cb474d
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2961454049
+ESPHome-Flash: 8192
+ESPHome-PSRAM: 8492
+ESPHome-IRAM: 0
+Filename: lib-src_0+d0cb474d_esp32p4.ipk
+Size: 4640
+SHA256sum: 122f82b2866195e6d5eb9062595fb74367520f22172c4dd356173a4e56f96e95
+Description: Library src
+
+Package: log-viewer
+Version: 0+6e58cc15
+Architecture: esp32p4
+Section: Apps
+ESPHome-ABI: 2961454049
+ESPHome-Flash: 61440
+ESPHome-PSRAM: 64352
+ESPHome-IRAM: 0
+Filename: log-viewer_0+6e58cc15_esp32p4.ipk
+Size: 28752
+SHA256sum: 93c155d249851b90fb7e44d455fb9a9bf348b2c4d7de46b140d8f107412dfff6
+Description: Log viewer
+
+Package: messenger
+Version: 0+63c2f3cc
+Depends: comp-messenger, comp-mtproto, lib-esp-libsrtp
+Architecture: esp32p4
+Section: Apps
+ESPHome-ABI: 2961454049
+ESPHome-Flash: 159744
+ESPHome-PSRAM: 164136
+ESPHome-IRAM: 0
+Filename: messenger_0+63c2f3cc_esp32p4.ipk
+Size: 70284
+SHA256sum: 4eee1a1a625306f6d43a146c6122bb941c8fb4f5771c41fb123e88970d78acdc
+Description: Messenger
+
+Package: sip-phone
+Version: 0+49d6fdbd
+Depends: comp-sip-phone, lib-src
+Architecture: esp32p4
+Section: Apps
+ESPHome-ABI: 2961454049
+ESPHome-Flash: 73728
+ESPHome-PSRAM: 78800
+ESPHome-IRAM: 0
+Filename: sip-phone_0+49d6fdbd_esp32p4.ipk
+Size: 34690
+SHA256sum: 32ccce5ee15198b3bc320b7634fd97f1ac0922479918201f8610782f168fb5b3
+Description: Phone
