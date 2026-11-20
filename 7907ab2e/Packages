@@ -1,0 +1,3014 @@
+Package: api-core
+Version: 0+630cb33f
+Depends: lib-lvgl
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 20480
+ESPHome-PSRAM: 21496
+ESPHome-IRAM: 0
+ESPHome-Features: ui=1=Publishing settings page=ui
+Filename: api-core_0+630cb33f_esp32p4.ipk
+Size: 11068
+SHA256sum: 97536b2526f04a29912b7c5864abc6a187b7275737b87a851bc281b564afdb09
+Description: API core
+
+Package: audio
+Version: 0+f84b043e
+Depends: comp-audio-devices, comp-script, lib-lvgl
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 40960
+ESPHome-PSRAM: 41280
+ESPHome-IRAM: 0
+ESPHome-Features: ui=1=Settings page and volume=ui
+Filename: audio_0+f84b043e_esp32p4.ipk
+Size: 20692
+SHA256sum: f88e1ca88b9cb2a03bee7d3eccec65168896837ec88c971870a63c657632e357
+Description: Audio
+
+Package: bluetooth-ui
+Version: 0+d961cda2
+Depends: bluetooth, ui
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 20480
+ESPHome-PSRAM: 22368
+ESPHome-IRAM: 0
+Filename: bluetooth-ui_0+d961cda2_esp32p4.ipk
+Size: 10448
+SHA256sum: 7c3406f47dab66ad0e2710e9262d61d64658759518529add124caddea11f545f
+Description: Bluetooth pairing dialog
+
+Package: bluetooth
+Version: 0+16b320ea
+Depends: comp-bt-offload, comp-script, comp-template, lib-lvgl
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 57344
+ESPHome-PSRAM: 60700
+ESPHome-IRAM: 0
+ESPHome-Features: ui=1=Settings page=ui;keyboard_layouts=1=Keyboard layouts=keyboard_layouts
+Filename: bluetooth_0+16b320ea_esp32p4.ipk
+Size: 27152
+SHA256sum: ddf62768296decce0cf428acdef9fc7f585064740bbd9e271c545584a9dfe1af
+Description: Bluetooth
+
+Package: bme280
+Version: 0+9a73bced
+Depends: comp-bme280-i2c
+Architecture: esp32p4
+Section: Sensors
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 8192
+ESPHome-PSRAM: 8916
+ESPHome-IRAM: 0
+Filename: bme280_0+9a73bced_esp32p4.ipk
+Size: 5230
+SHA256sum: cc79563f0ce5641020ac02f61a9cdd3c9b76603a7a48462c16f2f2e11fa98202
+Description: BME280
+
+Package: board-audio
+Version: 0+3375e5f4
+Depends: comp-audio-port, comp-es8311, comp-i2s-audio, comp-microphone, comp-template, audio
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 24576
+ESPHome-PSRAM: 23008
+ESPHome-IRAM: 0
+ESPHome-Features: ui=1=Settings page=ui
+Filename: board-audio_0+3375e5f4_esp32p4.ipk
+Size: 13236
+SHA256sum: a0c419a76bf08238de61a2793fd0389a7eb7fb4e2bbc74d3c605446f5461b866
+Description: Board audio
+
+Package: bt-audio
+Version: 0+362f73e1
+Depends: comp-audio-port, audio, usb-bluetooth
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 28672
+ESPHome-PSRAM: 27148
+ESPHome-IRAM: 0
+ESPHome-Features: ui=1=Settings page=ui
+Filename: bt-audio_0+362f73e1_esp32p4.ipk
+Size: 14776
+SHA256sum: 2e678d2f0341c8fc7cb891b88a5097d35a1db7977176cc57d32fa99788b3a66b
+Description: Bluetooth audio
+
+Package: call-audio
+Version: 0+e8a698d1
+Depends: comp-resampler, comp-speaker, audio
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 102400
+ESPHome-PSRAM: 104116
+ESPHome-IRAM: 0
+ESPHome-Features: ring_tone=1=Ring tone=codec_flac
+Filename: call-audio_0+e8a698d1_esp32p4.ipk
+Size: 94906
+SHA256sum: 15a62741fb489e0b2bcbe2c30cab72fd58d5ec8657b4fc7143334ed14bed4681
+Description: Call audio
+
+Package: camera
+Version: 0+04c4f0a6
+Depends: ui
+Architecture: esp32p4
+Section: Apps
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 69632
+ESPHome-PSRAM: 72864
+ESPHome-IRAM: 0
+ESPHome-Features: csi=1=MIPI CSI camera=csi_camera;uvc=1=USB camera (UVC)=usb_uvc;capture=1=Photos and recording=capture;live_stream=1=Live stream (RTSP)=rtsp_server
+Filename: camera_0+04c4f0a6_esp32p4.ipk
+Size: 34512
+SHA256sum: 16a3606bd882c2add90e96e5f39bbba13d9744b286d58e74878563ca1014931d
+Description: Camera
+
+Package: capture
+Version: 0+04de93a6
+Depends: comp-screen-capture, comp-resampler, comp-template
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 28672
+ESPHome-PSRAM: 29296
+ESPHome-IRAM: 0
+ESPHome-Features: sound=1=Sound=audio;relay=1=Media Relay=relay
+Filename: capture_0+04de93a6_esp32p4.ipk
+Size: 14042
+SHA256sum: caa5da5f5df9893944f4ba93db3ddaf51f9286c9fb2f602b53f836de24407a71
+Description: Capture
+
+Package: codec-flac
+Version: 0+8d7c74c8
+Depends: comp-audio-codec-flac
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 4096
+ESPHome-PSRAM: 4304
+ESPHome-IRAM: 0
+Filename: codec-flac_0+8d7c74c8_esp32p4.ipk
+Size: 2090
+SHA256sum: f2f7480b05f1ec72c67f8c261873383017ca521afd06f902dc66e7acd250f3ba
+Description: FLAC audio
+
+Package: codec-mp3
+Version: 0+ce48f6e4
+Depends: comp-audio-codec-mp3
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 4096
+ESPHome-PSRAM: 4304
+ESPHome-IRAM: 0
+Filename: codec-mp3_0+ce48f6e4_esp32p4.ipk
+Size: 2096
+SHA256sum: fc1db714cc1b3511e4662217aa06358d19709c761e1856106a56fe489f8f6081
+Description: MP3 audio
+
+Package: codec-opus
+Version: 0+02356dac
+Depends: comp-audio-codec-opus
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 4096
+ESPHome-PSRAM: 4304
+ESPHome-IRAM: 0
+Filename: codec-opus_0+02356dac_esp32p4.ipk
+Size: 2084
+SHA256sum: de812681b14e3d474403efd585a789ab2d5c49e825cbb665d72ee40746942f72
+Description: Opus audio
+
+Package: codec-wav
+Version: 0+b8a28195
+Depends: comp-audio-codec-wav
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 4096
+ESPHome-PSRAM: 4304
+ESPHome-IRAM: 0
+Filename: codec-wav_0+b8a28195_esp32p4.ipk
+Size: 2100
+SHA256sum: f6cd603c01a340875ad1923df25c68e9fad0db4215c4e7dde7517b69565427d4
+Description: WAV audio
+
+Package: comp-api
+Version: 0+7b69911b
+Depends: comp-camera
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 110592
+ESPHome-PSRAM: 110480
+ESPHome-IRAM: 0
+Filename: comp-api_0+7b69911b_esp32p4.ipk
+Size: 58280
+SHA256sum: 279c8cec2885fe1ba26884d59aae4d5deb6355093272689736c8eb608e9baf0f
+Description: Component api
+
+Package: comp-audio-codec-flac
+Version: 0+5995d5e1
+Depends: lib-micro-flac
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 4096
+ESPHome-PSRAM: 4312
+ESPHome-IRAM: 0
+Filename: comp-audio-codec-flac_0+5995d5e1_esp32p4.ipk
+Size: 2044
+SHA256sum: 1c5e22c36951c68337f1a9930b077d67bfbaebef96f98411067767fac167483d
+Description: Component audio_codec_flac
+
+Package: comp-audio-codec-mp3
+Version: 0+e0c7ffb6
+Depends: lib-micro-mp3
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 4096
+ESPHome-PSRAM: 4316
+ESPHome-IRAM: 0
+Filename: comp-audio-codec-mp3_0+e0c7ffb6_esp32p4.ipk
+Size: 2100
+SHA256sum: 302c46bc798a0485b4a234c57f0b18ef96677850c709648b68d4e12f11c3740b
+Description: Component audio_codec_mp3
+
+Package: comp-audio-codec-opus
+Version: 0+30c334a1
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 4096
+ESPHome-PSRAM: 4392
+ESPHome-IRAM: 0
+Filename: comp-audio-codec-opus_0+30c334a1_esp32p4.ipk
+Size: 2602
+SHA256sum: 56bf1fd56baeafaf47a46570907b580fa57271be64c78d046175ec2ac6dfc3fe
+Description: Component audio_codec_opus
+
+Package: comp-audio-codec-wav
+Version: 0+768024a4
+Depends: lib-micro-wav
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 4096
+ESPHome-PSRAM: 4304
+ESPHome-IRAM: 0
+Filename: comp-audio-codec-wav_0+768024a4_esp32p4.ipk
+Size: 1934
+SHA256sum: e1a3d24a46c15e86e78bc365658e6a2b4f98077c6db37ceefc5f089d8832d9d5
+Description: Component audio_codec_wav
+
+Package: comp-audio-devices
+Version: 0+49df80cf
+Depends: lib-src
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 24576
+ESPHome-PSRAM: 21448
+ESPHome-IRAM: 0
+Filename: comp-audio-devices_0+49df80cf_esp32p4.ipk
+Size: 12574
+SHA256sum: f7d41d0a70dd0790482f90cfe48d82ffb89231aea1170b2dff521c83f7d8f2cd
+Description: Component audio_devices
+
+Package: comp-audio-port
+Version: 0+ccfeb320
+Depends: comp-audio-devices
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 4096
+ESPHome-PSRAM: 4424
+ESPHome-IRAM: 0
+Filename: comp-audio-port_0+ccfeb320_esp32p4.ipk
+Size: 2254
+SHA256sum: 59a5f6e7447dd94447e8ed5c58e96a68f19eb93b44cd16d8f0a7f2b1e524a5fe
+Description: Component audio_port
+
+Package: comp-avi
+Version: 0+8191eaf2
+Depends: lib-src, comp-lvgl
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 36864
+ESPHome-PSRAM: 37876
+ESPHome-IRAM: 0
+Filename: comp-avi_0+8191eaf2_esp32p4.ipk
+Size: 21744
+SHA256sum: c52d47922154ee594d410f2c6a72557684d24c0e9221e3a3b6f0f84e97e5b574
+Description: Component avi
+
+Package: comp-bme280-base
+Version: 0+95f5101f
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 8192
+ESPHome-PSRAM: 8416
+ESPHome-IRAM: 0
+Filename: comp-bme280-base_0+95f5101f_esp32p4.ipk
+Size: 3994
+SHA256sum: d6fc04a82e638a93fe6b3a69fcf79d336ff7d117e9827159e6b9fee95127506a
+Description: Component bme280_base
+
+Package: comp-bme280-i2c
+Version: 0+54da4ce8
+Depends: comp-bme280-base
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 4096
+ESPHome-PSRAM: 4316
+ESPHome-IRAM: 0
+Filename: comp-bme280-i2c_0+54da4ce8_esp32p4.ipk
+Size: 1780
+SHA256sum: efe1b9f86b913eb20d4c1d2243681a486e956582f71a0e07319879e7efb9b379
+Description: Component bme280_i2c
+
+Package: comp-browser
+Version: 0+592f445b
+Depends: comp-remote-desktop
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 4096
+ESPHome-PSRAM: 4212
+ESPHome-IRAM: 0
+Filename: comp-browser_0+592f445b_esp32p4.ipk
+Size: 920
+SHA256sum: 767531d2005a2ac84f3506d8e8b1bdde6035721e3e0f7235f14974d85c8b4e68
+Description: Component browser
+
+Package: comp-bt-host
+Version: 0+78240d62
+Depends: lib-src
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 8192
+ESPHome-PSRAM: 8536
+ESPHome-IRAM: 0
+Filename: comp-bt-host_0+78240d62_esp32p4.ipk
+Size: 4630
+SHA256sum: bac51b69c9bc31ea187e4db1677d6a6e6e6b3db3d5f8b1c5763712fff2778179
+Description: Component bt_host
+
+Package: comp-bt-offload
+Version: 0+7d0657aa
+Depends: comp-bt-host, comp-hid
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 45056
+ESPHome-PSRAM: 47272
+ESPHome-IRAM: 0
+Filename: comp-bt-offload_0+7d0657aa_esp32p4.ipk
+Size: 26248
+SHA256sum: c584b9e844e1247d2bae5d96dbe8ba4e8c85f012dd68a1da550ff51684fdfd82
+Description: Component bt_offload
+
+Package: comp-bytebuffer
+Version: 0+592f445b
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 4096
+ESPHome-PSRAM: 4212
+ESPHome-IRAM: 0
+Filename: comp-bytebuffer_0+592f445b_esp32p4.ipk
+Size: 908
+SHA256sum: 7a8fe8f41b4046e046832dc196791802a91e109a4b93e8cfe35d8286cf96d17d
+Description: Component bytebuffer
+
+Package: comp-camera
+Version: 0+cc31ba65
+Depends: lib-espressif--esp-h264, lib-src
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 8192
+ESPHome-PSRAM: 8608
+ESPHome-IRAM: 0
+Filename: comp-camera_0+cc31ba65_esp32p4.ipk
+Size: 3662
+SHA256sum: 1ad975e9dc6afd984927897bc77e9b5e1bec10a9e6faf2a3b25d44bccf03fcff
+Description: Component camera
+
+Package: comp-debug
+Version: 0+379e19a3
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 8192
+ESPHome-PSRAM: 8732
+ESPHome-IRAM: 0
+Filename: comp-debug_0+379e19a3_esp32p4.ipk
+Size: 5446
+SHA256sum: f22098a839ca4b1f4bdb60d9a46c0b31b7f7be629b31e2ca2005f143e3052130
+Description: Component debug
+
+Package: comp-display
+Version: 0+592f445b
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 4096
+ESPHome-PSRAM: 4212
+ESPHome-IRAM: 0
+Filename: comp-display_0+592f445b_esp32p4.ipk
+Size: 910
+SHA256sum: 405f3de10fb3a5f73f6458c3418370569121dd1b9069e33baec50329f415ed6f
+Description: Platforms of display: light
+
+Package: comp-emulator
+Version: 0+69ef09e7
+Depends: comp-lvgl, lib-vfs
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 40960
+ESPHome-PSRAM: 42404
+ESPHome-IRAM: 0
+Filename: comp-emulator_0+69ef09e7_esp32p4.ipk
+Size: 23902
+SHA256sum: 9c44c43b3e421487b24993a1147679cc21d962cd6bbc710a5064bd645d2ff254
+Description: Component emulator
+
+Package: comp-es8311
+Version: 0+8fe16687
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 8192
+ESPHome-PSRAM: 8492
+ESPHome-IRAM: 0
+Filename: comp-es8311_0+8fe16687_esp32p4.ipk
+Size: 3416
+SHA256sum: 515bfdfdec5bebdb5c7f6c7c1c67f8b125b929fd793fb229f684b34b1a896b89
+Description: Component es8311
+
+Package: comp-ethernet
+Version: 0+e766b5ac
+Depends: ; lib-dp83848, lib-ip101, lib-ksz80xx, lib-lan867x, lib-lan87xx, lib-rtl8201
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 20480
+ESPHome-PSRAM: 21228
+ESPHome-IRAM: 0
+Filename: comp-ethernet_0+e766b5ac_esp32p4.ipk
+Size: 11894
+SHA256sum: 6d8df11b57699747823a02177cae80f0dfe69cf1c4444b819f873db460922c58
+Description: Component ethernet
+
+Package: comp-fixed-containers
+Version: 0+592f445b
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 4096
+ESPHome-PSRAM: 4212
+ESPHome-IRAM: 0
+Filename: comp-fixed-containers_0+592f445b_esp32p4.ipk
+Size: 918
+SHA256sum: cf0f3d985ff6f48310a253c6b70cdfe60c3d79ef15d20c872f84a38437de92c6
+Description: Component fixed_containers
+
+Package: comp-font
+Version: 0+0713f9cf
+Depends: comp-unicode, lib-lvgl
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 4096
+ESPHome-PSRAM: 4280
+ESPHome-IRAM: 0
+Filename: comp-font_0+0713f9cf_esp32p4.ipk
+Size: 2792
+SHA256sum: c4d50e4e2bc47266e9e0224657494d1fb1abe1dffa04f307f8d44cc784386221
+Description: Component font
+
+Package: comp-ft5x06
+Version: 0+4f102520
+Depends: comp-touchscreen
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 4096
+ESPHome-PSRAM: 4340
+ESPHome-IRAM: 0
+Filename: comp-ft5x06_0+4f102520_esp32p4.ipk
+Size: 2948
+SHA256sum: 926feb5e80b4e61e5c6a8ecebe91b33d8c8e280e66edaddbece9dff7fa5832c5
+Description: Platforms of ft5x06: touchscreen
+
+Package: comp-hid
+Version: 0+bf35f630
+Depends: comp-key-provider
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 135168
+ESPHome-PSRAM: 134916
+ESPHome-IRAM: 0
+Filename: comp-hid_0+bf35f630_esp32p4.ipk
+Size: 57258
+SHA256sum: 24c71579a24425314af67e784586413f9902abe2e073b0fe2362716f86d2272e
+Description: Component hid
+
+Package: comp-homeassistant
+Version: 0+c3f21bad
+Depends: comp-api
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 4096
+ESPHome-PSRAM: 4316
+ESPHome-IRAM: 0
+Filename: comp-homeassistant_0+c3f21bad_esp32p4.ipk
+Size: 1812
+SHA256sum: c956c2313dd9b5b2018038953112206457646d111e3f80e7c80aac97a2777755
+Description: Component homeassistant
+
+Package: comp-i2c-device
+Version: 0+b1659c65
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 4096
+ESPHome-PSRAM: 4280
+ESPHome-IRAM: 0
+Filename: comp-i2c-device_0+b1659c65_esp32p4.ipk
+Size: 1350
+SHA256sum: 1690b9c7370d73014d4876ac139e0adc6cff01f0740c3603d8192305196ffbe7
+Description: Component i2c_device
+
+Package: comp-i2s-audio
+Version: 0+66faa27d
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 24576
+ESPHome-PSRAM: 25928
+ESPHome-IRAM: 0
+Filename: comp-i2s-audio_0+66faa27d_esp32p4.ipk
+Size: 13752
+SHA256sum: 759485bfedba240bf68c28688e70740976ac0b0feb0a2d88a93288048e7632b9
+Description: Component i2s_audio
+
+Package: comp-internal-temperature
+Version: 0+ea144b40
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 4096
+ESPHome-PSRAM: 4328
+ESPHome-IRAM: 0
+Filename: comp-internal-temperature_0+ea144b40_esp32p4.ipk
+Size: 2138
+SHA256sum: 0d3c90405b4c7626614649b04f41f821bb1ece095797862b69dc92c1749c99d4
+Description: Component internal_temperature
+
+Package: comp-interval
+Version: 0+592f445b
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 4096
+ESPHome-PSRAM: 4212
+ESPHome-IRAM: 0
+Filename: comp-interval_0+592f445b_esp32p4.ipk
+Size: 904
+SHA256sum: 0ae03aeb521444b8891cb407e120bde5e2a3f112ff8938d190b54145d321417b
+Description: Component interval
+
+Package: comp-ir-remotes
+Version: 0+e98c5452
+Depends: comp-hid
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 36864
+ESPHome-PSRAM: 37768
+ESPHome-IRAM: 0
+Filename: comp-ir-remotes_0+e98c5452_esp32p4.ipk
+Size: 19918
+SHA256sum: 173b41a9d83026ffe94a617da60b1cb1e144f6696c7710b05a2e25b73335a324
+Description: Component ir_remotes
+
+Package: comp-irtoy
+Version: 0+6a07737a
+Depends: comp-usb-uart
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 8192
+ESPHome-PSRAM: 8540
+ESPHome-IRAM: 0
+Filename: comp-irtoy_0+6a07737a_esp32p4.ipk
+Size: 4578
+SHA256sum: 686754aff26bc897e1c9a82a0791fc7219d9fa40e651b89fc341870c6135d8fa
+Description: Component irtoy
+
+Package: comp-key-provider
+Version: 0+cc15488a
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 4096
+ESPHome-PSRAM: 4228
+ESPHome-IRAM: 0
+Filename: comp-key-provider_0+cc15488a_esp32p4.ipk
+Size: 1188
+SHA256sum: 42a88ca0f76e35f41deba6581fe52f023a5cf878a0c31c7e6df27e5461d3a3f9
+Description: Component key_provider
+
+Package: comp-keyboard-layouts
+Version: 0+7f121c52
+Depends: comp-hid, comp-relay-link, lib-src
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 32768
+ESPHome-PSRAM: 33504
+ESPHome-IRAM: 0
+Filename: comp-keyboard-layouts_0+7f121c52_esp32p4.ipk
+Size: 17738
+SHA256sum: 201585e2e31a1053e7c16d94cba8d812d0f16ab8b56b75e48ec9f5a88e4bf28b
+Description: Component keyboard_layouts
+
+Package: comp-lvgl
+Version: 0+832f483c
+Depends: lib-lvgl, comp-hid
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 86016
+ESPHome-PSRAM: 84064
+ESPHome-IRAM: 0
+Filename: comp-lvgl_0+832f483c_esp32p4.ipk
+Size: 48856
+SHA256sum: ee96e1b123aaaf56d6a38a40e0d0c4d2b0069e060122a0831a075b93ce0df92a
+Description: Component lvgl
+
+Package: comp-media-player-controls
+Version: 0+148f6c0c
+Depends: comp-lvgl, comp-media-player-pictures
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 28672
+ESPHome-PSRAM: 29576
+ESPHome-IRAM: 0
+Filename: comp-media-player-controls_0+148f6c0c_esp32p4.ipk
+Size: 16524
+SHA256sum: ef83d3c96eeaf0a371b45abe68ff5445bc689731c212293b175494da1dca1d0f
+Description: Component media_player_controls
+
+Package: comp-media-player-extended-api
+Version: 0+dd59d684
+Depends: comp-media-player-queue, lib-lvgl
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 16384
+ESPHome-PSRAM: 17068
+ESPHome-IRAM: 0
+Filename: comp-media-player-extended-api_0+dd59d684_esp32p4.ipk
+Size: 9444
+SHA256sum: 2eef347df64cc4ef4c706ff015e9cab1fb169d35543e32852835160792c62a44
+Description: Component media_player_extended_api
+
+Package: comp-media-player-pictures
+Version: 0+6f0e5533
+Depends: comp-media-player-queue, comp-online-image
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 16384
+ESPHome-PSRAM: 16912
+ESPHome-IRAM: 0
+Filename: comp-media-player-pictures_0+6f0e5533_esp32p4.ipk
+Size: 9514
+SHA256sum: ba14e25ad837e36597b401452530e37f8ceef59aeb2b58e235f1a7aa039d05b0
+Description: Component media_player_pictures
+
+Package: comp-media-player-queue
+Version: 0+6bce7a4f
+Depends: comp-relay-link, lib-src
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 16384
+ESPHome-PSRAM: 16828
+ESPHome-IRAM: 0
+Filename: comp-media-player-queue_0+6bce7a4f_esp32p4.ipk
+Size: 8590
+SHA256sum: c4474a2e7a1d83b18280a54d590068988d2dc223a217b37cf641e92cab16ece2
+Description: Component media_player_queue
+
+Package: comp-messenger
+Version: 0+4fb5af4d
+Depends: comp-camera, comp-mtproto, comp-runtime-image, comp-microphone
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 131072
+ESPHome-PSRAM: 129120
+ESPHome-IRAM: 0
+Filename: comp-messenger_0+4fb5af4d_esp32p4.ipk
+Size: 73992
+SHA256sum: a35ca66c86b94bf2c7d85f7c9a615b70f18dab924439a94ddde771e211012776
+Description: Component messenger
+
+Package: comp-micro-wake-word
+Version: 0+e5ab00a0
+Depends: comp-microphone, lib-esp-micro-speech-fe, lib-esp-tflite-micro
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 24576
+ESPHome-PSRAM: 25624
+ESPHome-IRAM: 0
+Filename: comp-micro-wake-word_0+e5ab00a0_esp32p4.ipk
+Size: 13634
+SHA256sum: 9bb2dcf3746596a6e3af9ab3f550af92edc2ae8f6b98c71df9bde0894c042c05
+Description: Component micro_wake_word
+
+Package: comp-microphone
+Version: 0+bfd8610a
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 4096
+ESPHome-PSRAM: 4256
+ESPHome-IRAM: 0
+Filename: comp-microphone_0+bfd8610a_esp32p4.ipk
+Size: 2098
+SHA256sum: 3eadf80824b12918ab0585286144573c2d8b29de4c3db229f6e4857da3cd4c35
+Description: Component microphone
+
+Package: comp-mipi-csi
+Version: 0+9453abf3
+Depends: comp-camera, lib-esp-video, comp-lvgl
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 24576
+ESPHome-PSRAM: 25648
+ESPHome-IRAM: 0
+Filename: comp-mipi-csi_0+9453abf3_esp32p4.ipk
+Size: 13502
+SHA256sum: a37d6f5d4827f9ddecca1f2b760b7d6c80deb58be0cd44870138185f3cd1c7ff
+Description: Component mipi_csi
+
+Package: comp-mipi-dsi
+Version: 0+a35f769f
+Depends: lib-esp-lcd
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 16384
+ESPHome-PSRAM: 16960
+ESPHome-IRAM: 0
+Filename: comp-mipi-dsi_0+a35f769f_esp32p4.ipk
+Size: 10272
+SHA256sum: f867f0a976861d4d5ac8fbe812fc3136a30200f5947bbcc8d01abaa3bc993283
+Description: Component mipi_dsi
+
+Package: comp-mtproto
+Version: 0+5ecd54ca
+Depends: lib-vfs
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 126976
+ESPHome-PSRAM: 124080
+ESPHome-IRAM: 0
+Filename: comp-mtproto_0+5ecd54ca_esp32p4.ipk
+Size: 59166
+SHA256sum: de0f360d9daae845e16e7a2e9a80f09ced7427ccc9ff8489e4e438674ef247ed
+Description: Component mtproto
+
+Package: comp-nfs-client
+Version: 0+98b3628f
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 32768
+ESPHome-PSRAM: 33584
+ESPHome-IRAM: 0
+Filename: comp-nfs-client_0+98b3628f_esp32p4.ipk
+Size: 17966
+SHA256sum: adb5e65c3a64fbac9db72c1758d07fa8542b029391b37aabde9f9d8635bd1cf3
+Description: Component nfs_client
+
+Package: comp-online-image
+Version: 0+444fb82c
+Depends: comp-runtime-image
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 20480
+ESPHome-PSRAM: 21024
+ESPHome-IRAM: 0
+Filename: comp-online-image_0+444fb82c_esp32p4.ipk
+Size: 10648
+SHA256sum: 16734f45e09a6582b2ddac72849aab70703c42c126d55fc7754d0446ae823f99
+Description: Component online_image
+
+Package: comp-relay-link
+Version: 0+ae1c250d
+Depends: comp-fixed-containers
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 28672
+ESPHome-PSRAM: 29364
+ESPHome-IRAM: 0
+Filename: comp-relay-link_0+ae1c250d_esp32p4.ipk
+Size: 16478
+SHA256sum: 5969d377b2dc16be2714d3d9596a02bea0a1c6d06b99ba62d0e211b83108723e
+Description: Component relay_link
+
+Package: comp-remote-desktop
+Version: 0+e0d74d03
+Depends: comp-lvgl, comp-usb-host, lib-src, lib-vfs
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 73728
+ESPHome-PSRAM: 71256
+ESPHome-IRAM: 0
+Filename: comp-remote-desktop_0+e0d74d03_esp32p4.ipk
+Size: 45818
+SHA256sum: 72e77a9f261aed270b98d6902e86b46cce79943213f1a4f3f734d7c98bb7a93d
+Description: Component remote_desktop
+
+Package: comp-resampler
+Version: 0+c3c48352
+Depends: comp-audio-devices, comp-microphone, lib-dl-lib-esp-audio-pr
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 36864
+ESPHome-PSRAM: 34336
+ESPHome-IRAM: 0
+Filename: comp-resampler_0+c3c48352_esp32p4.ipk
+Size: 20546
+SHA256sum: a9439eb0586803adc45d65ee356384324132f061140d0d65e5b7ca6ea244e64b
+Description: Platforms of resampler: microphone, select, speaker
+
+Package: comp-rtsp-server
+Version: 0+7341516f
+Depends: comp-camera
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 12288
+ESPHome-PSRAM: 12776
+ESPHome-IRAM: 0
+Filename: comp-rtsp-server_0+7341516f_esp32p4.ipk
+Size: 8702
+SHA256sum: d2c989f23c677cc9b18e86d60eaa6a2d95994ea4f58ab57e87b759a27f9fff9f
+Description: Component rtsp_server
+
+Package: comp-runtime-image
+Version: 0+71c69e55
+Depends: lib-pngle
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 20480
+ESPHome-PSRAM: 17128
+ESPHome-IRAM: 0
+Filename: comp-runtime-image_0+71c69e55_esp32p4.ipk
+Size: 10752
+SHA256sum: 86dfdb3d29cf90c8238d7a18ec29a4e2c9b0dfab98e9f4325e8eb27af361ce35
+Description: Component runtime_image
+
+Package: comp-runtime-language
+Version: 0+8c3f5428
+Depends: lib-lvgl
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 20480
+ESPHome-PSRAM: 21044
+ESPHome-IRAM: 0
+Filename: comp-runtime-language_0+8c3f5428_esp32p4.ipk
+Size: 9768
+SHA256sum: 752ccaa0532a653a0b47399f799c73e1fd970541d846381ac3cbe6a0ab6b6391
+Description: Component runtime_language
+
+Package: comp-screen-capture
+Version: 0+b3cfbf2d
+Depends: comp-avi, comp-microphone, comp-relay-link, comp-camera
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 40960
+ESPHome-PSRAM: 38024
+ESPHome-IRAM: 0
+Filename: comp-screen-capture_0+b3cfbf2d_esp32p4.ipk
+Size: 22402
+SHA256sum: 45052c82cb72b4b9e981c868db28b855637f5b203c0fae240b6bda85b91baefd
+Description: Component screen_capture
+
+Package: comp-script
+Version: 0+04dfdb3a
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 4096
+ESPHome-PSRAM: 4224
+ESPHome-IRAM: 0
+Filename: comp-script_0+04dfdb3a_esp32p4.ipk
+Size: 1048
+SHA256sum: 733753f7200e259938ac49577393abe2162c7775dfa9f168dba9045793722525
+Description: Component script
+
+Package: comp-sip-phone
+Version: 0+c0156b1f
+Depends: lib-vfs, comp-resampler
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 61440
+ESPHome-PSRAM: 63168
+ESPHome-IRAM: 0
+Filename: comp-sip-phone_0+c0156b1f_esp32p4.ipk
+Size: 37638
+SHA256sum: ed84b1651b193bee05a8556afc5d2b467f28829c762a676489da307830f6cbc0
+Description: Component sip_phone
+
+Package: comp-speaker
+Version: 0+39bb94b3
+Depends: lib-src
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 24576
+ESPHome-PSRAM: 21360
+ESPHome-IRAM: 0
+Filename: comp-speaker_0+39bb94b3_esp32p4.ipk
+Size: 12858
+SHA256sum: 7f927be95a9818d147260148fb5ab59430031f24ab24aa2166bc9fbc560b3c6e
+Description: Platforms of speaker: media_player
+
+Package: comp-stream-receiver
+Version: 0+e3603621
+Depends: lib-vfs, comp-avi, comp-resampler
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 16384
+ESPHome-PSRAM: 17028
+ESPHome-IRAM: 0
+Filename: comp-stream-receiver_0+e3603621_esp32p4.ipk
+Size: 10166
+SHA256sum: a8bf8b7c4b957971d840a33e654db7133babf0a5eafb860f9e91a0b3171da1ff
+Description: Platforms of stream_receiver: media_player
+
+Package: comp-template
+Version: 0+3aff8f3c
+Depends: lib-src
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 8192
+ESPHome-PSRAM: 8740
+ESPHome-IRAM: 0
+Filename: comp-template_0+3aff8f3c_esp32p4.ipk
+Size: 4052
+SHA256sum: 0fd594d55e6c7637ec022a4cd89413d872550a324fc10477e99020269653231e
+Description: Platforms of template: binary_sensor, number, output, select, switch, text_sensor
+
+Package: comp-touchscreen
+Version: 0+1a3dae80
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 8192
+ESPHome-PSRAM: 8400
+ESPHome-IRAM: 0
+Filename: comp-touchscreen_0+1a3dae80_esp32p4.ipk
+Size: 3748
+SHA256sum: 53243c643f782d755f69995c11e2d65a551e869e9a81bce2a6ffcdc1f3d17c6f
+Description: Component touchscreen
+
+Package: comp-unicode
+Version: 0+8f5c2dec
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 4096
+ESPHome-PSRAM: 4212
+ESPHome-IRAM: 0
+Filename: comp-unicode_0+8f5c2dec_esp32p4.ipk
+Size: 1136
+SHA256sum: 828eae84758c1d74b5a6176bed8046a38532568722d20d545c6bc39c38f0920f
+Description: Component unicode
+
+Package: comp-usb-audio
+Version: 0+ace3d005
+Depends: comp-microphone, comp-usb-host, comp-audio-devices
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 49152
+ESPHome-PSRAM: 50588
+ESPHome-IRAM: 0
+Filename: comp-usb-audio_0+ace3d005_esp32p4.ipk
+Size: 30466
+SHA256sum: b30fc60721c5e48e35b0032d402fea8a6c804718cdd2eacb530641f76ff9a917
+Description: Component usb_audio
+
+Package: comp-usb-bluetooth
+Version: 0+5db67329
+Depends: comp-usb-host, comp-bt-offload
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 20480
+ESPHome-PSRAM: 16932
+ESPHome-IRAM: 0
+Filename: comp-usb-bluetooth_0+5db67329_esp32p4.ipk
+Size: 10300
+SHA256sum: fda61a4c1f43250f63ce0445c249ea548a57fcb507cb16c05f5510e4b9a553ea
+Description: Component usb_bluetooth
+
+Package: comp-usb-cdrom
+Version: 0+2327761e
+Depends: comp-usb-storage
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 16384
+ESPHome-PSRAM: 13020
+ESPHome-IRAM: 0
+Filename: comp-usb-cdrom_0+2327761e_esp32p4.ipk
+Size: 8142
+SHA256sum: 17f4c04cfb4745c7bd218017d7f962c027ecabf470df9eaa0640e73aa4089a62
+Description: Component usb_cdrom
+
+Package: comp-usb-ethernet
+Version: 0+7781c677
+Depends: comp-usb-host
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 53248
+ESPHome-PSRAM: 55336
+ESPHome-IRAM: 0
+Filename: comp-usb-ethernet_0+7781c677_esp32p4.ipk
+Size: 24666
+SHA256sum: 4eb22bf465f4c25e315cf781591a83b908fe908710927c4085238705faf2f1c7
+Description: Component usb_ethernet
+
+Package: comp-usb-hid
+Version: 0+5f00f668
+Depends: comp-hid, comp-usb-host
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 32768
+ESPHome-PSRAM: 29752
+ESPHome-IRAM: 0
+Filename: comp-usb-hid_0+5f00f668_esp32p4.ipk
+Size: 18654
+SHA256sum: af3de2bbc49d2f29b583a9653af1cc25f89a767a2141a1b1078d55ad41155cda
+Description: Component usb_hid
+
+Package: comp-usb-host
+Version: 0+a791e18f
+Depends: comp-bytebuffer, lib-usb
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 40960
+ESPHome-PSRAM: 37868
+ESPHome-IRAM: 0
+Filename: comp-usb-host_0+a791e18f_esp32p4.ipk
+Size: 22726
+SHA256sum: 80612569ada26e2cbdb20b7b73071335c661b23e1dcae644adf5451df13390a8
+Description: Component usb_host
+
+Package: comp-usb-storage
+Version: 0+74dd05bd
+Depends: comp-usb-host
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 28672
+ESPHome-PSRAM: 25688
+ESPHome-IRAM: 0
+Filename: comp-usb-storage_0+74dd05bd_esp32p4.ipk
+Size: 15026
+SHA256sum: f595823cf61624edfd40514033c4f0a3eff7eb68418ce5674cc7f4a7387f0fff
+Description: Component usb_storage
+
+Package: comp-usb-uart-ch34x
+Version: 0+21b57ff9
+Depends: comp-usb-uart
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 8192
+ESPHome-PSRAM: 4664
+ESPHome-IRAM: 0
+Filename: comp-usb-uart-ch34x_0+21b57ff9_esp32p4.ipk
+Size: 3280
+SHA256sum: f4cfc1573652ce6816c7afc2f4ab15d7d827d8451da3a5fde4d487bde200545f
+Description: Component usb_uart_ch34x
+
+Package: comp-usb-uart-ch934x
+Version: 0+15dbc05b
+Depends: comp-usb-uart
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 16384
+ESPHome-PSRAM: 16876
+ESPHome-IRAM: 0
+Filename: comp-usb-uart-ch934x_0+15dbc05b_esp32p4.ipk
+Size: 9070
+SHA256sum: 30cc1a8696ef39723a5c34b0e959720b4c1c9594ebc11657bfb6599cb129d27b
+Description: Component usb_uart_ch934x
+
+Package: comp-usb-uart-cp210x
+Version: 0+3bf08983
+Depends: comp-usb-uart
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 8192
+ESPHome-PSRAM: 8472
+ESPHome-IRAM: 0
+Filename: comp-usb-uart-cp210x_0+3bf08983_esp32p4.ipk
+Size: 4304
+SHA256sum: b7de10fef1b73d00045ee173c94e8edbc8a44606d8d77debbe00d2bd1b5571f8
+Description: Component usb_uart_cp210x
+
+Package: comp-usb-uart-ft23xx
+Version: 0+841e9a05
+Depends: comp-usb-uart
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 12288
+ESPHome-PSRAM: 8512
+ESPHome-IRAM: 0
+Filename: comp-usb-uart-ft23xx_0+841e9a05_esp32p4.ipk
+Size: 5888
+SHA256sum: 49e73f7b2b964b3f7f6b4aaae9c9d57dddb4cb4ee8442a4521fd627e176a53d5
+Description: Component usb_uart_ft23xx
+
+Package: comp-usb-uart-pl2303
+Version: 0+936a630e
+Depends: comp-usb-uart
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 8192
+ESPHome-PSRAM: 8452
+ESPHome-IRAM: 0
+Filename: comp-usb-uart-pl2303_0+936a630e_esp32p4.ipk
+Size: 3752
+SHA256sum: a2cdc787865e3c5444e90c7b4abe43e80ccb580f4d746e2eef2e96e450e77925
+Description: Component usb_uart_pl2303
+
+Package: comp-usb-uart
+Version: 0+91d616b7
+Depends: comp-usb-host
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 24576
+ESPHome-PSRAM: 25524
+ESPHome-IRAM: 0
+Filename: comp-usb-uart_0+91d616b7_esp32p4.ipk
+Size: 13530
+SHA256sum: b4bbaeb830bd36fd6ff4340f12b9600a01366680a4a6db112ffef90b41f2accd
+Description: Component usb_uart
+
+Package: comp-usb-uvc
+Version: 0+f25bd512
+Depends: comp-camera, comp-usb-host, comp-lvgl
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 20480
+ESPHome-PSRAM: 17012
+ESPHome-IRAM: 0
+Filename: comp-usb-uvc_0+f25bd512_esp32p4.ipk
+Size: 11312
+SHA256sum: 711368bf3d3224def5fe106f679e1aa8b4b54cdc2628e7091b23bce60ab03331
+Description: Component usb_uvc
+
+Package: comp-usb-wifi
+Version: 0+b1455a05
+Depends: comp-usb-host
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 110592
+ESPHome-PSRAM: 108700
+ESPHome-IRAM: 0
+Filename: comp-usb-wifi_0+b1455a05_esp32p4.ipk
+Size: 52080
+SHA256sum: e3adadd290ae4e8312cd9776f74f2d82e6e96e4bbc56a45668f5f8da4ac2b8d7
+Description: Component usb_wifi
+
+Package: comp-voice-assistant
+Version: 0+0164ef8d
+Depends: comp-api, comp-micro-wake-word
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 28672
+ESPHome-PSRAM: 29600
+ESPHome-IRAM: 0
+Filename: comp-voice-assistant_0+0164ef8d_esp32p4.ipk
+Size: 15896
+SHA256sum: 6031898879192a0ec7bcf69a0fecb4d9e1093f2882ec87b7f41b3d438495bc7d
+Description: Component voice_assistant
+
+Package: comp-web-file-api
+Version: 0+d4b87b22
+Depends: comp-web-server
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 40960
+ESPHome-PSRAM: 42088
+ESPHome-IRAM: 0
+Filename: comp-web-file-api_0+d4b87b22_esp32p4.ipk
+Size: 21386
+SHA256sum: a05839e9ea5115dc5dde3c7f3c1df820df0a11c85ca54cda423b8f667bbf8a89
+Description: Component web_file_api
+
+Package: comp-web-file-browser
+Version: 0+18fdd7e8
+Depends: comp-web-file-api
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 8192
+ESPHome-PSRAM: 8520
+ESPHome-IRAM: 0
+Filename: comp-web-file-browser_0+18fdd7e8_esp32p4.ipk
+Size: 4236
+SHA256sum: 064bb40d514f6930f9a4178464a2be21c15aaeb2548166862f4afe8da0010a7f
+Description: Component web_file_browser
+
+Package: comp-web-server-base
+Version: 0+3e7fb5c1
+Depends: comp-web-server-idf
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 8192
+ESPHome-PSRAM: 8540
+ESPHome-IRAM: 0
+Filename: comp-web-server-base_0+3e7fb5c1_esp32p4.ipk
+Size: 4688
+SHA256sum: 3406746e529345e59a7595ebb4c084c759965dbd5fa6cf85e668a35cafe14dc8
+Description: Component web_server_base
+
+Package: comp-web-server-idf
+Version: 0+85a64d9a
+Depends: lib-esp-http-server, lib-multipart-parser
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 24576
+ESPHome-PSRAM: 21140
+ESPHome-IRAM: 0
+Filename: comp-web-server-idf_0+85a64d9a_esp32p4.ipk
+Size: 12740
+SHA256sum: 62f615f86fdcdc197202c3c74f4f0cfb2981f0d526c9f97099e471387826d7f1
+Description: Component web_server_idf
+
+Package: comp-web-server
+Version: 0+2aa2aacb
+Depends: comp-web-server-base, lib-src, comp-runtime-language
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 77824
+ESPHome-PSRAM: 76500
+ESPHome-IRAM: 0
+Filename: comp-web-server_0+2aa2aacb_esp32p4.ipk
+Size: 40608
+SHA256sum: bb9a6da481f39a3ac8f26901aad4da889bb05c898789e47a969df46b5150a710
+Description: Component web_server
+
+Package: comp-web-settings
+Version: 0+e4a3e112
+Depends: comp-web-server
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 4096
+ESPHome-PSRAM: 4296
+ESPHome-IRAM: 0
+Filename: comp-web-settings_0+e4a3e112_esp32p4.ipk
+Size: 1502
+SHA256sum: 9d9d095d3f3253e689edb6acd8e51a6f8e3205e4565984f34dacd63a44be9aeb
+Description: Component web_settings
+
+Package: csi-camera
+Version: 0+f3f9a83c
+Depends: comp-mipi-csi, comp-script
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 12288
+ESPHome-PSRAM: 13836
+ESPHome-IRAM: 0
+ESPHome-Features: lvgl=1=Preview on the screen=lvgl
+Filename: csi-camera_0+f3f9a83c_esp32p4.ipk
+Size: 7274
+SHA256sum: 533d33cc0fd52ea3e6c6b219234886bbad83ff5167d248625289940ac046d0b2
+Description: CSI camera
+
+Package: dashboard
+Version: 0+521a72ab
+Depends: stream-receiver, ui, relay
+Architecture: esp32p4
+Section: Apps
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 28672
+ESPHome-PSRAM: 31948
+ESPHome-IRAM: 0
+Filename: dashboard_0+521a72ab_esp32p4.ipk
+Size: 17144
+SHA256sum: 03d44bba7f92e992f810c42e62e4ca4b087f774702e9be580ca9736ea9040a0b
+Description: Dashboard
+
+Package: debug
+Version: 0+acbf4c26
+Depends: comp-debug
+Architecture: esp32p4
+Section: Developer
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 12288
+ESPHome-PSRAM: 13244
+ESPHome-IRAM: 0
+Filename: debug_0+acbf4c26_esp32p4.ipk
+Size: 5624
+SHA256sum: 93c3d2d313bd1423c7c49219e116d62b1a0169d74f8244736fcf68b6a24b9f6d
+Description: Debug sensors
+
+Package: devctl
+Version: 0+f3ae12ec
+Depends: lib-lvgl
+Architecture: esp32p4
+Section: Developer
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 28672
+ESPHome-PSRAM: 30656
+ESPHome-IRAM: 0
+ESPHome-Features: lvgl=1=Screen control (LVGL)=lvgl;screencast=1=Screenshots and screencast=capture;audio_state=1=Audio state=audio;ha_api_way=0=Home Assistant API=ha_api;web_way=0=Web server=web_server;mqtt_way=0=MQTT=mqtt
+Filename: devctl_0+f3ae12ec_esp32p4.ipk
+Size: 16648
+SHA256sum: a5e9ba6b50f8e5841830cfd9e9e216cb58ae1882a4497781cad3361ddd6a9532
+Description: Devctl support
+
+Package: display-backlight
+Version: 0+83f64a69
+Depends: comp-display, display-dsi, lib-src
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 8192
+ESPHome-PSRAM: 9128
+ESPHome-IRAM: 0
+Filename: display-backlight_0+83f64a69_esp32p4.ipk
+Size: 6260
+SHA256sum: 27869891ebfe0497337358520780ed109e6309ccfd1a865a30cbc22c65542608
+Description: Display backlight light
+
+Package: display-dsi
+Version: 0+f1b98087
+Depends: comp-mipi-dsi
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 73728
+ESPHome-PSRAM: 74372
+ESPHome-IRAM: 0
+Filename: display-dsi_0+f1b98087_esp32p4.ipk
+Size: 20716
+SHA256sum: a957e33d7e1815d90e967bd1e82bf60630e38177fd943e71ec18c0a8c81ec237
+Description: MIPI DSI display
+
+Package: dsi-eca20-mha1-i
+Version: 0+ad72ed72
+Depends: display-dsi
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 4096
+ESPHome-PSRAM: 4332
+ESPHome-IRAM: 0
+Filename: dsi-eca20-mha1-i_0+ad72ed72_esp32p4.ipk
+Size: 2416
+SHA256sum: 390ad0bc104968ded151e9abde605193d7618e2b190dd250470026b31d27c974
+Description: Display ECA20-MHA1-I
+
+Package: dsi-jc1060p470-v2
+Version: 0+f3d76996
+Depends: display-dsi
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 4096
+ESPHome-PSRAM: 4344
+ESPHome-IRAM: 0
+Filename: dsi-jc1060p470-v2_0+f3d76996_esp32p4.ipk
+Size: 2758
+SHA256sum: a7c12056c00bc88f56912a942a43abc1277aa69a8de49ba785aced5830dcd594
+Description: Display JC1060P470-V2
+
+Package: dsi-jc1060p470
+Version: 0+3ed2032e
+Depends: display-dsi
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 4096
+ESPHome-PSRAM: 4332
+ESPHome-IRAM: 0
+Filename: dsi-jc1060p470_0+3ed2032e_esp32p4.ipk
+Size: 2600
+SHA256sum: e59708c3ea55346f50b027cf8eb07f050cb6f2d45c0258593291d5cf1f59289b
+Description: Display JC1060P470
+
+Package: dsi-jc4880p443
+Version: 0+748259b7
+Depends: display-dsi
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 4096
+ESPHome-PSRAM: 4344
+ESPHome-IRAM: 0
+Filename: dsi-jc4880p443_0+748259b7_esp32p4.ipk
+Size: 2734
+SHA256sum: fe5c3d9e8a10ff32d81e91bba0c227f1713813fb3ee82a6a4bb78d9265fddce9
+Description: Display JC4880P443
+
+Package: dsi-jc8012p4a1-v2
+Version: 0+c96d44ce
+Depends: display-dsi
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 4096
+ESPHome-PSRAM: 4344
+ESPHome-IRAM: 0
+Filename: dsi-jc8012p4a1-v2_0+c96d44ce_esp32p4.ipk
+Size: 3038
+SHA256sum: 55ece5396bd8c8e6b8df09a1150e5c2cec993ce8e803c86271a186b6a8d8f118
+Description: Display JC8012P4A1-V2
+
+Package: dsi-jc8012p4a1
+Version: 0+dd8c2a30
+Depends: display-dsi
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 4096
+ESPHome-PSRAM: 4344
+ESPHome-IRAM: 0
+Filename: dsi-jc8012p4a1_0+dd8c2a30_esp32p4.ipk
+Size: 3006
+SHA256sum: 06afbe174c33c40e8080d65c18e657785480f9ae24357f9c4480ef559d7accdc
+Description: Display JC8012P4A1
+
+Package: dsi-rpi-7inch-v1
+Version: 0+ab5d6a27
+Depends: comp-i2c-device, comp-template, display-dsi
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 8192
+ESPHome-PSRAM: 4556
+ESPHome-IRAM: 0
+Filename: dsi-rpi-7inch-v1_0+ab5d6a27_esp32p4.ipk
+Size: 3828
+SHA256sum: 33f3603f936032a3cb1c1cca999a2ec4594e9aea4feb6fb7ce4ecefaf8838ee2
+Description: Display RPI-7INCH-V1
+
+Package: dsi-ws-10-1-t-a
+Version: 0+65f979cb
+Depends: display-dsi
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 4096
+ESPHome-PSRAM: 4332
+ESPHome-IRAM: 0
+Filename: dsi-ws-10-1-t-a_0+65f979cb_esp32p4.ipk
+Size: 2946
+SHA256sum: 91e394bee5e76779c1b7b0460bf76af425dd3b37fd9764c2940648bd22dd9b34
+Description: Display WAVESHARE-10.1-DSI-TOUCH-A
+
+Package: dsi-ws-3-4-t-c
+Version: 0+77e7d309
+Depends: display-dsi
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 4096
+ESPHome-PSRAM: 4332
+ESPHome-IRAM: 0
+Filename: dsi-ws-3-4-t-c_0+77e7d309_esp32p4.ipk
+Size: 2932
+SHA256sum: 6ed29662f280e5dc54588006543008569e5c07188e3d223455c2e0218b4527b1
+Description: Display WAVESHARE-3.4-DSI-TOUCH-C
+
+Package: dsi-ws-4-3-dsi
+Version: 0+17de8a93
+Depends: display-dsi
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 4096
+ESPHome-PSRAM: 4332
+ESPHome-IRAM: 0
+Filename: dsi-ws-4-3-dsi_0+17de8a93_esp32p4.ipk
+Size: 2450
+SHA256sum: 9b1de2b84972f764d5d015f4ec716836ac4bd599a3bb100d75401af44d0c2231
+Description: Display WAVESHARE-4.3-DSI
+
+Package: dsi-ws-4-t-c
+Version: 0+6c2af708
+Depends: display-dsi
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 4096
+ESPHome-PSRAM: 4332
+ESPHome-IRAM: 0
+Filename: dsi-ws-4-t-c_0+6c2af708_esp32p4.ipk
+Size: 2924
+SHA256sum: 4c16bde8529a94d97e9e54597e8358493f283f671f79c21c9192f2a3f6955d07
+Description: Display WAVESHARE-4-DSI-TOUCH-C
+
+Package: dsi-ws-7-t-a
+Version: 0+374421bf
+Depends: display-dsi
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 4096
+ESPHome-PSRAM: 4332
+ESPHome-IRAM: 0
+Filename: dsi-ws-7-t-a_0+374421bf_esp32p4.ipk
+Size: 2922
+SHA256sum: a4b731cf7db2b0d92d52d3c838c424c72b31967ce1b4ab7ef158b9a2cdc049c6
+Description: Display WAVESHARE-7-DSI-TOUCH-A
+
+Package: dsi-ws-8-t-a
+Version: 0+e95d6d31
+Depends: display-dsi
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 4096
+ESPHome-PSRAM: 4332
+ESPHome-IRAM: 0
+Filename: dsi-ws-8-t-a_0+e95d6d31_esp32p4.ipk
+Size: 2868
+SHA256sum: 836713942a646227c62fad65eb5879772692e894e3281741e4f8c6c3551785f6
+Description: Display WAVESHARE-8-DSI-TOUCH-A
+
+Package: dsi-ws-p4-86-panel
+Version: 0+0cce8c76
+Depends: display-dsi
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 4096
+ESPHome-PSRAM: 4344
+ESPHome-IRAM: 0
+Filename: dsi-ws-p4-86-panel_0+0cce8c76_esp32p4.ipk
+Size: 2786
+SHA256sum: 987be6e8d8d36fc4437ac96931deafec9f61fc1d2c488edaf406ae114b5445c4
+Description: Display WAVESHARE-P4-86-PANEL
+
+Package: dsi-ws-p4-nano-10-1
+Version: 0+48adeed7
+Depends: display-dsi
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 4096
+ESPHome-PSRAM: 4332
+ESPHome-IRAM: 0
+Filename: dsi-ws-p4-nano-10-1_0+48adeed7_esp32p4.ipk
+Size: 2948
+SHA256sum: 42adec7d911b09de1c14a89cf556e617dc01b62604681be7de2ddffa4304266f
+Description: Display WAVESHARE-P4-NANO-10.1
+
+Package: dsi-ws-p4lcd-3-4c
+Version: 0+1063bb6f
+Depends: display-dsi
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 4096
+ESPHome-PSRAM: 4332
+ESPHome-IRAM: 0
+Filename: dsi-ws-p4lcd-3-4c_0+1063bb6f_esp32p4.ipk
+Size: 2952
+SHA256sum: 6a0f4d3861014da0bd0a08575e6174a9ab5a42656c759b26a48d1d920353bc9b
+Description: Display WAVESHARE-ESP32-P4-WIFI6-TOUCH-LCD-3.4C
+
+Package: dsi-ws-p4lcd-4c
+Version: 0+db4271f5
+Depends: display-dsi
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 4096
+ESPHome-PSRAM: 4332
+ESPHome-IRAM: 0
+Filename: dsi-ws-p4lcd-4c_0+db4271f5_esp32p4.ipk
+Size: 2950
+SHA256sum: 642b23a2f544589bb80578cd1c928fb8f4226a46dbce0a1c1d9fd653ef15c498
+Description: Display WAVESHARE-ESP32-P4-WIFI6-TOUCH-LCD-4C
+
+Package: dsi-ws-p4lcd-7b
+Version: 0+ecd61aa2
+Depends: display-dsi
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 4096
+ESPHome-PSRAM: 4344
+ESPHome-IRAM: 0
+Filename: dsi-ws-p4lcd-7b_0+ecd61aa2_esp32p4.ipk
+Size: 2582
+SHA256sum: 9a41cd9515680e0ca6d6a498c3828157441cc89f6853468db07b23524b55bb32
+Description: Display WAVESHARE-ESP32-P4-WIFI6-TOUCH-LCD-7B
+
+Package: editor
+Version: 0+7e993c9f
+Depends: ui
+Architecture: esp32p4
+Section: Apps
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 77824
+ESPHome-PSRAM: 78952
+ESPHome-IRAM: 0
+Filename: editor_0+7e993c9f_esp32p4.ipk
+Size: 36608
+SHA256sum: 37f76beab6d98a4f4f13b0d460dcbfab6dc35871332cfc90ac19a6641caa4e1f
+Description: Editor
+
+Package: emu-gb
+Version: 0+a2996235
+Depends: emulator
+Architecture: esp32p4
+Section: Emulators
+ESPHome-ABI: 2030545710
+ESPHome-PSRAM: 53760
+Filename: emu-gb_0+a2996235_esp32p4.ipk
+Size: 37978
+SHA256sum: 54c9bbd960bbc61df10bca7586e086b710e0eeb079bf195dd63063b46fc0fedc
+Description: Game Boy
+
+Package: emu-gw
+Version: 0+344ef982
+Depends: emulator
+Architecture: esp32p4
+Section: Emulators
+ESPHome-ABI: 2030545710
+ESPHome-PSRAM: 26160
+Filename: emu-gw_0+344ef982_esp32p4.ipk
+Size: 21992
+SHA256sum: 3ef18872812174b8d445480c4cae6e17eefa06dfe7310649db91fa9ad9773482
+Description: Game & Watch
+
+Package: emu-lynx
+Version: 0+932c06ff
+Depends: emulator
+Architecture: esp32p4
+Section: Emulators
+ESPHome-ABI: 2030545710
+ESPHome-PSRAM: 102616
+Filename: emu-lynx_0+932c06ff_esp32p4.ipk
+Size: 57924
+SHA256sum: 529ba9a987f04a27b5f14bb938172a71cf1840f6aabe980f4f0afe8ceb582ee7
+Description: Lynx
+
+Package: emu-md
+Version: 0+ce1638d2
+Depends: emulator
+Architecture: esp32p4
+Section: Emulators
+ESPHome-ABI: 2030545710
+ESPHome-PSRAM: 782584
+Filename: emu-md_0+ce1638d2_esp32p4.ipk
+Size: 128564
+SHA256sum: 0eb7a9e9b94ed2d1b455b1782f49222638d5d252145c8929a8f66bc7e45be607
+Description: Mega Drive
+
+Package: emu-msx
+Version: 0+c970320f
+Depends: emulator
+Architecture: esp32p4
+Section: Emulators
+ESPHome-ABI: 2030545710
+ESPHome-PSRAM: 266368
+Filename: emu-msx_0+c970320f_esp32p4.ipk
+Size: 119962
+SHA256sum: 08c8f3c815127c71a31744a6a9fef86ce7570a87c9b9316112803855b7c14fb4
+Description: MSX
+
+Package: emu-nes
+Version: 0+1496abc4
+Depends: emulator
+Architecture: esp32p4
+Section: Emulators
+ESPHome-ABI: 2030545710
+ESPHome-PSRAM: 131816
+Filename: emu-nes_0+1496abc4_esp32p4.ipk
+Size: 77510
+SHA256sum: 21a691213b0135fdf9d877740fd417dac8f83e3097ae231965762d6e938beffe
+Description: NES
+
+Package: emu-pce
+Version: 0+b9052673
+Depends: emulator
+Architecture: esp32p4
+Section: Emulators
+ESPHome-ABI: 2030545710
+ESPHome-PSRAM: 57656
+Filename: emu-pce_0+b9052673_esp32p4.ipk
+Size: 29900
+SHA256sum: 6659816d2063d09c72431fa6c3349345d03eccc89f61adcee1178ac3d1d11daf
+Description: PC Engine
+
+Package: emu-sms
+Version: 0+be918c1c
+Depends: emulator
+Architecture: esp32p4
+Section: Emulators
+ESPHome-ABI: 2030545710
+ESPHome-PSRAM: 98532
+Filename: emu-sms_0+be918c1c_esp32p4.ipk
+Size: 53012
+SHA256sum: 3a1eff6a0633ad5c74f83cad15ac8549d52e1c437581d6fde6714730b7473075
+Description: Master System
+
+Package: emu-snes
+Version: 0+21d92c9e
+Depends: emulator
+Architecture: esp32p4
+Section: Emulators
+ESPHome-ABI: 2030545710
+ESPHome-PSRAM: 239580
+Filename: emu-snes_0+21d92c9e_esp32p4.ipk
+Size: 131872
+SHA256sum: a5716fc01ea9ba981fd67f6e56898a56e47d675c5408e84137880e84623c91e0
+Description: Super Nintendo
+
+Package: emulator
+Version: 0+c7e6ce45
+Depends: comp-emulator, comp-resampler, ui
+Architecture: esp32p4
+Section: Apps
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 98304
+ESPHome-PSRAM: 108736
+ESPHome-IRAM: 0
+ESPHome-Features: touch=1=Touch controls=touch_ft5x06;sound=1=Sound=audio;bluetooth=1=Bluetooth controllers=bluetooth
+Filename: emulator_0+c7e6ce45_esp32p4.ipk
+Size: 46080
+SHA256sum: 3f55f98bdbe13a01b89edde25961863a4584705bbbb9697216756a45938e085b
+Description: Games
+
+Package: ethernet
+Version: 0+55b48e0b
+Depends: comp-ethernet
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 8192
+ESPHome-PSRAM: 4552
+ESPHome-IRAM: 0
+ESPHome-Features: lan8720=0=LAN8720=lib_lan87xx;rtl8201=0=RTL8201=lib_rtl8201;dp83848=0=DP83848=lib_dp83848;ip101=0=IP101=lib_ip101;jl1101=0=JL1101=;ksz8081=0=KSZ8081=lib_ksz80xx;ksz8081rna=0=KSZ8081RNA=lib_ksz80xx;lan8670=0=LAN8670=lib_lan867x
+Filename: ethernet_0+55b48e0b_esp32p4.ipk
+Size: 3716
+SHA256sum: 71607e4e93082ac0095f713ab61b48ea00304f5b7ef3c2759904172d5a75b885
+Description: Ethernet
+
+Package: file-manager
+Version: 0+07a4f3ef
+Depends: ui
+Architecture: esp32p4
+Section: Apps
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 86016
+ESPHome-PSRAM: 86360
+ESPHome-IRAM: 0
+Filename: file-manager_0+07a4f3ef_esp32p4.ipk
+Size: 42856
+SHA256sum: bfa3bba595475a94496153958e839d5ed8c58cb5c2ef27c7c51e8cc13c3160bc
+Description: FileManager
+
+Package: flash-programmer
+Version: 0+9cf9aa36
+Depends: ui
+Architecture: esp32p4
+Section: Developer
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 40960
+ESPHome-PSRAM: 40184
+ESPHome-IRAM: 0
+Filename: flash-programmer_0+9cf9aa36_esp32p4.ipk
+Size: 21550
+SHA256sum: 364b248c965f4d0e8c913fa296c43df385be4c675f8a7f3b22586ce78db713ba
+Description: FlashProgrammer
+
+Package: ha-api
+Version: 0+7b549bd2
+Depends: comp-homeassistant, api-core
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 8192
+ESPHome-PSRAM: 9008
+ESPHome-IRAM: 0
+Filename: ha-api_0+7b549bd2_esp32p4.ipk
+Size: 4554
+SHA256sum: d2499a314a54f7a48ef52efa703694f637c18b3e64bb5f4f00da13c06f61614d
+Description: Home Assistant API
+
+Package: internal-temperature
+Version: 0+c10b8952
+Depends: comp-internal-temperature
+Architecture: esp32p4
+Section: Sensors
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 8192
+ESPHome-PSRAM: 8592
+ESPHome-IRAM: 0
+Filename: internal-temperature_0+c10b8952_esp32p4.ipk
+Size: 3988
+SHA256sum: 80fdc11fc961eb463d207eb95ef1cf63d12df910731432798d24b533eae04416
+Description: Chip temperature
+
+Package: ir-remotes
+Version: 0+9c9113a5
+Depends: comp-ir-remotes, irtoy, lib-lvgl
+Architecture: esp32p4
+Section: Apps
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 28672
+ESPHome-PSRAM: 30892
+ESPHome-IRAM: 0
+ESPHome-Features: ui=1=Settings page=ui
+Filename: ir-remotes_0+9c9113a5_esp32p4.ipk
+Size: 15308
+SHA256sum: bf38bd2fa30aa8b0b8ffc41c9a4d3cd1412e19db4063e284b4ca15fb9de2c139
+Description: IR remotes
+
+Package: irtoy
+Version: 0+8c0fb5da
+Depends: comp-irtoy, usb-uart
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 4096
+ESPHome-PSRAM: 4460
+ESPHome-IRAM: 0
+Filename: irtoy_0+8c0fb5da_esp32p4.ipk
+Size: 2352
+SHA256sum: e8c4b84022796961413be8e9007440133f5d18f1cc3c25ad9de7fd08f8765fe0
+Description: IR Toy
+
+Package: kbd-layout-commands
+Version: 0+b9620879
+Depends: keyboard-layouts
+Architecture: esp32p4
+Section: Developer
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 4096
+ESPHome-PSRAM: 4500
+ESPHome-IRAM: 0
+Filename: kbd-layout-commands_0+b9620879_esp32p4.ipk
+Size: 3522
+SHA256sum: de3621a6ec6145769b8287e9c57b2069d7136d565bf5cc4eb5ea0bd154179efd
+Description: Keyboard layout commands
+
+Package: key-binding-commands
+Version: 0+f539ba7b
+Depends: lvgl
+Architecture: esp32p4
+Section: Developer
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 12288
+ESPHome-PSRAM: 13756
+ESPHome-IRAM: 0
+Filename: key-binding-commands_0+f539ba7b_esp32p4.ipk
+Size: 7716
+SHA256sum: c01b09177bedcd06ca99bfdac4328956c9c64dad70854ee6de65c08a641b41c4
+Description: Key binding commands
+
+Package: keyboard-layouts
+Version: 0+59c76c88
+Depends: comp-keyboard-layouts, comp-script, comp-template, lib-lvgl
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 36864
+ESPHome-PSRAM: 40368
+ESPHome-IRAM: 0
+ESPHome-Features: ui=1=Settings page=ui
+Filename: keyboard-layouts_0+59c76c88_esp32p4.ipk
+Size: 20198
+SHA256sum: cea07031de6c355861e5e2da76f667d65a0d3f81f19fcc8c17702a9e9bcff45e
+Description: Keyboard layouts
+
+Package: lib-dl-lib-esp-audio-pr
+Version: 0+5fd1622a
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 57344
+ESPHome-PSRAM: 56348
+ESPHome-IRAM: 0
+Filename: lib-dl-lib-esp-audio-pr_0+5fd1622a_esp32p4.ipk
+Size: 36082
+SHA256sum: 226ee1d638d64b152dd01f8e1f147cfb7c519efe36467d3f4486d7e39a68d052
+Description: Library dl_lib, esp_audio_processor, espressif__dl_fft
+
+Package: lib-dp83848
+Version: 0+c3b136ac
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 4096
+ESPHome-PSRAM: 4300
+ESPHome-IRAM: 0
+Filename: lib-dp83848_0+c3b136ac_esp32p4.ipk
+Size: 2398
+SHA256sum: e8061e73e5cdca4649e3e7d3b954f2908e41f1769f4e10c1b6d89b61c2ffaeff
+Description: ESPHome package lib_dp83848
+
+Package: lib-esp-cam-sensor
+Version: 0+2b4e8142
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 20480
+ESPHome-PSRAM: 21136
+ESPHome-IRAM: 0
+Filename: lib-esp-cam-sensor_0+2b4e8142_esp32p4.ipk
+Size: 10002
+SHA256sum: 054869e185e4e820c2030aacbe60353732621095e7bfbeaa8236b62a1c95c79e
+Description: ESPHome package lib_esp_cam_sensor
+
+Package: lib-esp-driver-cam
+Version: 0+292ebdaf
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 4096
+ESPHome-PSRAM: 4256
+ESPHome-IRAM: 0
+Filename: lib-esp-driver-cam_0+292ebdaf_esp32p4.ipk
+Size: 1470
+SHA256sum: 1e43972252ed32dea582070c1beef3786feeb534bfbae60ef5e617281dacf14f
+Description: Library esp_driver_cam
+
+Package: lib-esp-driver-isp
+Version: 0+b25997ca
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 16384
+ESPHome-PSRAM: 16600
+ESPHome-IRAM: 0
+Filename: lib-esp-driver-isp_0+b25997ca_esp32p4.ipk
+Size: 7166
+SHA256sum: 1943d78ec033b8bc010699af2d14d2cbf6a12f73ad04568c8be03e0e7486c175
+Description: Library esp_driver_isp
+
+Package: lib-esp-hal-usb
+Version: 0+2a565367
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 8192
+ESPHome-PSRAM: 8452
+ESPHome-IRAM: 0
+Filename: lib-esp-hal-usb_0+2a565367_esp32p4.ipk
+Size: 4588
+SHA256sum: 8a95436142da736776b96365f4e135644ea71ddec128731f10bb400760c3d6ca
+Description: Library esp_hal_usb
+
+Package: lib-esp-http-server
+Version: 0+ba94a979
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 28672
+ESPHome-PSRAM: 29100
+ESPHome-IRAM: 0
+Filename: lib-esp-http-server_0+ba94a979_esp32p4.ipk
+Size: 15964
+SHA256sum: c33711e47508e172f33bec3939e1c5d536ed3d1d7c9e03c86e7f537ce5dcd1d9
+Description: Library esp_http_server
+
+Package: lib-esp-hw-support
+Version: 0+83ecbe68
+Depends: lib-esp-hal-usb
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 8192
+ESPHome-PSRAM: 8444
+ESPHome-IRAM: 0
+Filename: lib-esp-hw-support_0+83ecbe68_esp32p4.ipk
+Size: 3830
+SHA256sum: c9da21e2f9ec7c2ae7325d6202669ebb3a61148b207b66ae2fc30c64c5e5de2e
+Description: Library esp_hw_support
+
+Package: lib-esp-lcd
+Version: 0+8616acce
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 8192
+ESPHome-PSRAM: 8416
+ESPHome-IRAM: 0
+Filename: lib-esp-lcd_0+8616acce_esp32p4.ipk
+Size: 3576
+SHA256sum: 013d72bfc9d250847c1e8b639a60cddcd188a92cc0322a05ea53617f657adfb3
+Description: Library esp_lcd
+
+Package: lib-esp-libc
+Version: 0+feb946a1
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 4096
+ESPHome-PSRAM: 4260
+ESPHome-IRAM: 0
+Filename: lib-esp-libc_0+feb946a1_esp32p4.ipk
+Size: 1102
+SHA256sum: 3658734623ab6a935aff4eade5cddb080cc79daf7a40aab2e56989660d41d61b
+Description: Library esp_libc
+
+Package: lib-esp-micro-speech-fe
+Version: 0+c47ee006
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 16384
+ESPHome-PSRAM: 16660
+ESPHome-IRAM: 0
+Filename: lib-esp-micro-speech-fe_0+c47ee006_esp32p4.ipk
+Size: 9848
+SHA256sum: 999a75c24e3b451a4809f0057281c7514d6df3d3b384181db5639ce3e86c1c42
+Description: ESPHome package lib_esp_micro_speech_fe
+
+Package: lib-esp-nn
+Version: 0+b980c8d1
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 57344
+ESPHome-PSRAM: 57668
+ESPHome-IRAM: 0
+Filename: lib-esp-nn_0+b980c8d1_esp32p4.ipk
+Size: 40372
+SHA256sum: 9963c6d55a6f17b4f49e48e8a46658ce0137feec016b47d40fc27f68640b5bd1
+Description: ESPHome package lib_esp_nn
+
+Package: lib-esp-tflite-micro
+Version: 0+858be730
+Depends: lib-esp-nn
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 765952
+ESPHome-PSRAM: 776044
+ESPHome-IRAM: 0
+Filename: lib-esp-tflite-micro_0+858be730_esp32p4.ipk
+Size: 419794
+SHA256sum: fe7bdadde89440860b68f9aa338cc679b37e0abdf339a67b82699a160885b153
+Description: ESPHome package lib_esp_tflite_micro
+
+Package: lib-esp-video
+Version: 0+5978abff
+Depends: lib-esp-driver-cam, lib-esp-driver-isp, lib-espressif--esp-ipa, lib-esp-cam-sensor
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 86016
+ESPHome-PSRAM: 87976
+ESPHome-IRAM: 0
+Filename: lib-esp-video_0+5978abff_esp32p4.ipk
+Size: 40736
+SHA256sum: 017fd83bc9350172c27f848a1c02089be50857acf64fec6db0926b3d98c479cc
+Description: ESPHome package lib_esp_video
+
+Package: lib-espressif--esp-h264
+Version: 0+40327fbe
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 20480
+ESPHome-PSRAM: 20728
+ESPHome-IRAM: 0
+Filename: lib-espressif--esp-h264_0+40327fbe_esp32p4.ipk
+Size: 11634
+SHA256sum: 32dfc980d436abc7f5f8550030000cf97a41dc7f4822705bb9e0e3b1f13856c2
+Description: Library espressif__esp_h264
+
+Package: lib-espressif--esp-ipa
+Version: 0+abc05ae9
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 4096
+ESPHome-PSRAM: 4520
+ESPHome-IRAM: 0
+Filename: lib-espressif--esp-ipa_0+abc05ae9_esp32p4.ipk
+Size: 1466
+SHA256sum: 33e287e7446197e933cf86f77c55db40d6eae371d6547c743b29c7bde6fd2a1e
+Description: Library espressif__esp_ipa
+
+Package: lib-ip101
+Version: 0+d515e2ce
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 4096
+ESPHome-PSRAM: 4296
+ESPHome-IRAM: 0
+Filename: lib-ip101_0+d515e2ce_esp32p4.ipk
+Size: 2116
+SHA256sum: 4e94208e78493c8d4a0e5ef57c130b52309a1a845162523351930bcb3b203b11
+Description: ESPHome package lib_ip101
+
+Package: lib-ksz80xx
+Version: 0+5c517a7e
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 4096
+ESPHome-PSRAM: 4296
+ESPHome-IRAM: 0
+Filename: lib-ksz80xx_0+5c517a7e_esp32p4.ipk
+Size: 2328
+SHA256sum: e32ca5b79f5d539546d9dbd6708aeda8e37d9a031d13830cd3c61730f6067a4a
+Description: ESPHome package lib_ksz80xx
+
+Package: lib-lan867x
+Version: 0+8d253727
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 4096
+ESPHome-PSRAM: 4268
+ESPHome-IRAM: 0
+Filename: lib-lan867x_0+8d253727_esp32p4.ipk
+Size: 1060
+SHA256sum: 2e87f96b492264301eb70918d3db0f32db8f7c405c989cc54ba85fe931bb4c31
+Description: ESPHome package lib_lan867x
+
+Package: lib-lan87xx
+Version: 0+898b42f0
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 4096
+ESPHome-PSRAM: 4312
+ESPHome-IRAM: 0
+Filename: lib-lan87xx_0+898b42f0_esp32p4.ipk
+Size: 2614
+SHA256sum: 23d3581efe4941774c1876c59e03625ab3b99b3ab843a73eb1d3cd20842732f7
+Description: ESPHome package lib_lan87xx
+
+Package: lib-lvgl-env
+Version: 0+72b9d181
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 4096
+ESPHome-PSRAM: 4296
+ESPHome-IRAM: 0
+Filename: lib-lvgl-env_0+72b9d181_esp32p4.ipk
+Size: 1534
+SHA256sum: 66955266ec94bd1e93ccbfb7e12b3613dba866d9105931378aae317a505a15d7
+Description: ESPHome package lib_lvgl_env
+
+Package: lib-lvgl
+Version: 0+6b96a8be
+Depends: lib-lvgl-env
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 950272
+ESPHome-PSRAM: 950608
+ESPHome-IRAM: 0
+Filename: lib-lvgl_0+6b96a8be_esp32p4.ipk
+Size: 314664
+SHA256sum: 1bced78fa8e4d1fd055b2e9181451e3abdadf52665ae8a36ce0886c2745be4df
+Description: ESPHome package lib_lvgl
+
+Package: lib-micro-flac
+Version: 0+3c141d22
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 98304
+ESPHome-PSRAM: 98612
+ESPHome-IRAM: 0
+Filename: lib-micro-flac_0+3c141d22_esp32p4.ipk
+Size: 66916
+SHA256sum: 2e379f598dd1d3ec95a9f6360125d47c09777bc8d2a8cd4bea1be94f3630d899
+Description: ESPHome package lib_micro_flac
+
+Package: lib-micro-mp3
+Version: 0+fe859d68
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 45056
+ESPHome-PSRAM: 45408
+ESPHome-IRAM: 0
+Filename: lib-micro-mp3_0+fe859d68_esp32p4.ipk
+Size: 28360
+SHA256sum: 30fb10e26a13625dc1cfec95908c517939e134b16a2ba264a3468c9b54482f1d
+Description: ESPHome package lib_micro_mp3
+
+Package: lib-micro-wav
+Version: 0+bc01d9c1
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 4096
+ESPHome-PSRAM: 4280
+ESPHome-IRAM: 0
+Filename: lib-micro-wav_0+bc01d9c1_esp32p4.ipk
+Size: 2748
+SHA256sum: a196d96c7ad583ef5e650e360ef46c54786653ca7f0a2e90cc31c1ecf307bf0f
+Description: ESPHome package lib_micro_wav
+
+Package: lib-mqtt
+Version: 0+d7e447f1
+Depends: lib-tcp-transport
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 28672
+ESPHome-PSRAM: 29172
+ESPHome-IRAM: 0
+Filename: lib-mqtt_0+d7e447f1_esp32p4.ipk
+Size: 15212
+SHA256sum: 01dfd8b0973dae454d5276ab56f8c54684d15a8bc23046f30b8e50db4ec1f83b
+Description: ESPHome package lib_mqtt
+
+Package: lib-multipart-parser
+Version: 0+f1ee0077
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 4096
+ESPHome-PSRAM: 4280
+ESPHome-IRAM: 0
+Filename: lib-multipart-parser_0+f1ee0077_esp32p4.ipk
+Size: 1892
+SHA256sum: abed2b007c5fd8069409691d1108b5f01b4ff35ccaaf1da97495cf75a935f2d0
+Description: ESPHome package lib_multipart_parser
+
+Package: lib-pngle
+Version: 0+6beed3f3
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 8192
+ESPHome-PSRAM: 8380
+ESPHome-IRAM: 0
+Filename: lib-pngle_0+6beed3f3_esp32p4.ipk
+Size: 4728
+SHA256sum: d92fb95d1c57eb183e7641d3b165f14de013817b093f97d21bf942dd8d5e21ad
+Description: Library pngle
+
+Package: lib-rtl8201
+Version: 0+0afc202e
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 4096
+ESPHome-PSRAM: 4304
+ESPHome-IRAM: 0
+Filename: lib-rtl8201_0+0afc202e_esp32p4.ipk
+Size: 2474
+SHA256sum: 5be6ce58a961dd6caa672075d223241fd337324158d37c37aaee7c0ed65ab764
+Description: ESPHome package lib_rtl8201
+
+Package: lib-src
+Version: 0+e63dfc65
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 40960
+ESPHome-PSRAM: 42060
+ESPHome-IRAM: 0
+Filename: lib-src_0+e63dfc65_esp32p4.ipk
+Size: 18486
+SHA256sum: da0696cd3b9cddfd457ccfde8e8c4ac086bd31b116613b04cfb21c7ac1a85192
+Description: Library src
+
+Package: lib-tcp-transport
+Version: 0+88915cb6
+Depends: lib-esp-libc
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 12288
+ESPHome-PSRAM: 12596
+ESPHome-IRAM: 0
+Filename: lib-tcp-transport_0+88915cb6_esp32p4.ipk
+Size: 6036
+SHA256sum: 92d6e485bb807d7f3c34e29918782eef8eef57ab0900a8276aa333a7e545c3da
+Description: Library tcp_transport
+
+Package: lib-usb
+Version: 0+a71b6565
+Depends: lib-esp-hw-support
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 77824
+ESPHome-PSRAM: 78668
+ESPHome-IRAM: 0
+Filename: lib-usb_0+a71b6565_esp32p4.ipk
+Size: 43064
+SHA256sum: e9860d8b3ff783de1917d132f6a90368f27c7923d07a858b928704999ce92e2d
+Description: ESPHome package lib_usb
+
+Package: lib-vfs
+Version: 0+01617d70
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 4096
+ESPHome-PSRAM: 4404
+ESPHome-IRAM: 0
+Filename: lib-vfs_0+01617d70_esp32p4.ipk
+Size: 3002
+SHA256sum: 5b2a90de4dcb8898442a64493d0807e5e338d4255efdf767f5af5c9e26f7cc80
+Description: Library vfs
+
+Package: log-viewer
+Version: 0+e79f6b42
+Depends: ui
+Architecture: esp32p4
+Section: Developer
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 61440
+ESPHome-PSRAM: 60720
+ESPHome-IRAM: 0
+ESPHome-Features: relay=1=Save logs to the test log folder=relay
+Filename: log-viewer_0+e79f6b42_esp32p4.ipk
+Size: 29082
+SHA256sum: c82dcd96fe67fee8203c9ccd1be07a1b8caeaeee6d2b1e2fb6e6e2f0981c26c1
+Description: Log viewer
+
+Package: lvgl
+Version: 0+8b925e8c
+Depends: comp-font, comp-lvgl, display-dsi
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 303104
+ESPHome-PSRAM: 304696
+ESPHome-IRAM: 0
+ESPHome-Features: touch=1=Touch=touch_ft5x06
+Filename: lvgl_0+8b925e8c_esp32p4.ipk
+Size: 107646
+SHA256sum: e839e4f50611b21be0f8b04404e1ede8733bf0238d91cd4c85e2f389012c5f6f
+Description: LVGL
+
+Package: media
+Version: 0+00cf80a6
+Depends: comp-media-player-controls, comp-media-player-extended-api, comp-resampler, comp-speaker, audio, ui
+Architecture: esp32p4
+Section: Apps
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 155648
+ESPHome-PSRAM: 168004
+ESPHome-IRAM: 0
+ESPHome-Features: touch=1=Touch controls=touch_ft5x06;wav=1=WAV files=codec_wav;flac=1=FLAC=codec_flac;mp3=1=MP3=codec_mp3;opus=1=Opus=codec_opus;video=1=Video=video_player;pictures=1=Pictures=;tv=1=TV and live streams=stream_receiver,relay=video;relay=1=Home Assistant media=relay
+Filename: media_0+00cf80a6_esp32p4.ipk
+Size: 73514
+SHA256sum: fa02d14c680bab3955bb325f7d624bd4339fceaefc06ba0d45929567c53ba551
+Description: Media player
+
+Package: messenger
+Version: 0+6ed1fbda
+Depends: comp-messenger, ui
+Architecture: esp32p4
+Section: Apps
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 184320
+ESPHome-PSRAM: 196192
+ESPHome-IRAM: 0
+ESPHome-Features: camera=1=Camera=csi_camera|usb_uvc;video_call=1=Video calls==camera;audio_call=1=Audio calls=call_audio,codec_opus;voice_messages=1=Voice messages=call_audio,codec_opus;remote=1=Home Assistant (remote commands, WhatsApp)=ha_api
+Filename: messenger_0+6ed1fbda_esp32p4.ipk
+Size: 81980
+SHA256sum: 94fb042324181cad8f435cc4958e6c396287441684ce735061bbd8d59adb5218
+Description: Messenger
+
+Package: mqtt
+Version: 0+ad3083af
+Depends: api-core, lib-mqtt, lib-src
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 106496
+ESPHome-PSRAM: 109088
+ESPHome-IRAM: 0
+Filename: mqtt_0+ad3083af_esp32p4.ipk
+Size: 53990
+SHA256sum: 031fb2e215575e1b7ec005ef28ed6febad3d41d129c165fd66bd447731dec9c8
+Description: MQTT
+
+Package: nfs-client
+Version: 0+6051ca23
+Depends: comp-nfs-client
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 4096
+ESPHome-PSRAM: 5496
+ESPHome-IRAM: 0
+Filename: nfs-client_0+6051ca23_esp32p4.ipk
+Size: 3044
+SHA256sum: c3e1c32849e616f92ce1a449c430904a0ae07e43bf2b9d2271a61a58fe56c915
+Description: NFS client
+
+Package: relay
+Version: 0+9ee209be
+Depends: comp-relay-link, comp-script, comp-template, ha-api
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 45056
+ESPHome-PSRAM: 45476
+ESPHome-IRAM: 0
+ESPHome-Features: ui=1=Settings page and tests=ui
+Filename: relay_0+9ee209be_esp32p4.ipk
+Size: 24078
+SHA256sum: 3aaf9223302deb1cf4a7d4d5381ffbb444382da34e0f7673b6913ca6736bf609
+Description: Media Relay
+
+Package: remote-desktop
+Version: 0+eb94bf74
+Depends: comp-browser, comp-resampler, ui
+Architecture: esp32p4
+Section: Apps
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 73728
+ESPHome-PSRAM: 84992
+ESPHome-IRAM: 0
+ESPHome-Features: touch=1=Touch input=touch_ft5x06;sound=1=Sound=audio;bluetooth=1=Bluetooth keyboards and mice=bluetooth;vnc=1=VNC=vnc;spice=1=SPICE=spice
+Filename: remote-desktop_0+eb94bf74_esp32p4.ipk
+Size: 39040
+SHA256sum: 28c25905ed247b57ef8ce8845eb6526d2593200b09863eb7fa2a1a6558cf2c81
+Description: Remote-Desktop
+
+Package: rtsp-server
+Version: 0+839f6ec1
+Depends: comp-rtsp-server, comp-template, csi-camera|usb-uvc
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 12288
+ESPHome-PSRAM: 10756
+ESPHome-IRAM: 0
+Filename: rtsp-server_0+839f6ec1_esp32p4.ipk
+Size: 6140
+SHA256sum: f7b0fec911a697ea809e0e4734a19b06dcb821e3ab204e064846189e9c094d6d
+Description: RTSP server
+
+Package: screen-capture
+Version: 0+5705d55f
+Depends: comp-script, capture, lvgl
+Architecture: esp32p4
+Section: Apps
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 49152
+ESPHome-PSRAM: 53716
+ESPHome-IRAM: 0
+ESPHome-Features: ui=1=Settings page=ui
+Filename: screen-capture_0+5705d55f_esp32p4.ipk
+Size: 22984
+SHA256sum: 929c7d4a8fa48008dab2a61e81991c76c16a144f446ed2e85d66b532d38bf0a1
+Description: Screen capture
+
+Package: serial-forward-commands
+Version: 0+af9d2154
+Architecture: esp32p4
+Section: Developer
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 16384
+ESPHome-PSRAM: 17500
+ESPHome-IRAM: 0
+Filename: serial-forward-commands_0+af9d2154_esp32p4.ipk
+Size: 10674
+SHA256sum: 1b90b036dcd486a645aa475737c71896b163f345273599662d9e0cc8d639b530
+Description: Serial port commands
+
+Package: sip-phone
+Version: 0+43d76acb
+Depends: comp-sip-phone, call-audio, ui
+Architecture: esp32p4
+Section: Apps
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 73728
+ESPHome-PSRAM: 99180
+ESPHome-IRAM: 0
+ESPHome-Features: opus=1=Opus calls=codec_opus
+Filename: sip-phone_0+43d76acb_esp32p4.ipk
+Size: 34226
+SHA256sum: fb7256050c00e9129fb0eded8b68675476743f18d0171e7cafbce99899fdf073
+Description: Phone
+
+Package: spice
+Version: 0+4dfefbfb
+Depends: ui
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 4096
+ESPHome-PSRAM: 4600
+ESPHome-IRAM: 0
+Filename: spice_0+4dfefbfb_esp32p4.ipk
+Size: 2790
+SHA256sum: a65ceb179496e6fdca6c018f944d5e12b421ad42e9a0c7ff007bdf65eff0236b
+Description: SPICE
+
+Package: stream-receiver
+Version: 0+1783f083
+Depends: comp-stream-receiver, lvgl
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 8192
+ESPHome-PSRAM: 9732
+ESPHome-IRAM: 0
+ESPHome-Features: touch=1=Touch=touch_ft5x06;avi=1=AVI streams (videos, TV channels)=video_player
+Filename: stream-receiver_0+1783f083_esp32p4.ipk
+Size: 5818
+SHA256sum: b71ad04af48f4c5f48cf1511a1095391e2df042ae3e8ad75d636cce61e61fa1e
+Description: Stream receiver
+
+Package: touch-ft5x06
+Version: 0+ab1da45e
+Depends: comp-ft5x06, display-dsi
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 8192
+ESPHome-PSRAM: 4536
+ESPHome-IRAM: 0
+Filename: touch-ft5x06_0+ab1da45e_esp32p4.ipk
+Size: 3586
+SHA256sum: a9c51b3f0aa3d0fd86ded95c95a68032445a44f3db9c04f703a7c6a780afa045
+Description: FT5x06 touchscreen
+
+Package: ui-layout-big
+Version: 0+f0a5207e
+Depends: lvgl
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 4096
+ESPHome-PSRAM: 4536
+ESPHome-IRAM: 0
+Filename: ui-layout-big_0+f0a5207e_esp32p4.ipk
+Size: 2576
+SHA256sum: 4b81721a8047859396cc79c1f427169a1b437d6d2f272d76494e73cbb6b816e0
+Description: UI layout big
+
+Package: ui-layout-medium
+Version: 0+60a8d761
+Depends: lvgl
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 4096
+ESPHome-PSRAM: 4536
+ESPHome-IRAM: 0
+Filename: ui-layout-medium_0+60a8d761_esp32p4.ipk
+Size: 2586
+SHA256sum: 63cb6af0e317c5a3bd78e903b04b007800f53678e457152a17ad969848c1a1e9
+Description: UI layout medium
+
+Package: ui-layout-small
+Version: 0+17312a59
+Depends: lvgl
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 4096
+ESPHome-PSRAM: 4536
+ESPHome-IRAM: 0
+Filename: ui-layout-small_0+17312a59_esp32p4.ipk
+Size: 2574
+SHA256sum: 1f2a2d43dc55b18e7cbd6ecdb1e216adddcc4fb17de1f083b28b8d80563d7821
+Description: UI layout small
+
+Package: ui
+Version: 0+1803ea09
+Depends: comp-interval, comp-online-image, comp-runtime-language, comp-script, comp-template, lvgl, ui-layout-small|ui-layout-medium|ui-layout-big
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 1130496
+ESPHome-PSRAM: 1189848
+ESPHome-IRAM: 0
+Filename: ui_0+1803ea09_esp32p4.ipk
+Size: 424492
+SHA256sum: 1707aa14d6f54d7743eaf44cbde73cc94058dcfbfaa289c5044c92a8d0052ba9
+Description: User interface
+
+Package: usb-audio
+Version: 0+48f558b8
+Depends: comp-usb-audio, comp-template, usb-host, audio
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 16384
+ESPHome-PSRAM: 24404
+ESPHome-IRAM: 0
+Filename: usb-audio_0+48f558b8_esp32p4.ipk
+Size: 10404
+SHA256sum: 00151ab0de8ffc76bb1afb72c254c0c504fe930a255d4190e4347e00e80e6afd
+Description: USB audio
+
+Package: usb-bluetooth
+Version: 0+cd1d1390
+Depends: comp-usb-bluetooth, usb-host, bluetooth
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 8192
+ESPHome-PSRAM: 13112
+ESPHome-IRAM: 0
+Filename: usb-bluetooth_0+cd1d1390_esp32p4.ipk
+Size: 3940
+SHA256sum: d7cf1a8e2ae743ae47d5bdde4b13874d80361832c70e1c14273173161dcfd3b5
+Description: USB Bluetooth dongle
+
+Package: usb-cdrom
+Version: 0+c02f7b64
+Depends: comp-usb-cdrom, usb-storage
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 4096
+ESPHome-PSRAM: 4672
+ESPHome-IRAM: 0
+Filename: usb-cdrom_0+c02f7b64_esp32p4.ipk
+Size: 3080
+SHA256sum: ded69502bf34d34ea41dac57de58dc4dd34477a2b781c6293be1437ada7b9ab7
+Description: USB CD-ROM
+
+Package: usb-ethernet
+Version: 0+ecb6c53b
+Depends: comp-usb-ethernet, usb-host
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 12288
+ESPHome-PSRAM: 15880
+ESPHome-IRAM: 0
+Filename: usb-ethernet_0+ecb6c53b_esp32p4.ipk
+Size: 7008
+SHA256sum: 1b80da0cdd52d76fd351802162ab56fa560187a5be8316a1d560d9c04ad7f0f3
+Description: USB Ethernet
+
+Package: usb-hid
+Version: 0+f91bfb87
+Depends: comp-usb-hid, usb-host
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 12288
+ESPHome-PSRAM: 16260
+ESPHome-IRAM: 0
+ESPHome-Features: keyboard_layouts=1=Keyboard layouts=keyboard_layouts
+Filename: usb-hid_0+f91bfb87_esp32p4.ipk
+Size: 7140
+SHA256sum: b50401bb7390e4426fdc90233ada53ce3dbd78b0459c1a6c2e4e5f686612df65
+Description: USB keyboards and gamepads
+
+Package: usb-host
+Version: 0+5fb6da3d
+Depends: comp-usb-host
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 8192
+ESPHome-PSRAM: 9412
+ESPHome-IRAM: 0
+Filename: usb-host_0+5fb6da3d_esp32p4.ipk
+Size: 6332
+SHA256sum: e9446e696247d00f2dd038575c87600016a9f53ac9a1c7a93c6379f1ccc9bfa2
+Description: USB host
+
+Package: usb-storage
+Version: 0+a886ae00
+Depends: comp-usb-storage, usb-host
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 8192
+ESPHome-PSRAM: 11168
+ESPHome-IRAM: 0
+Filename: usb-storage_0+a886ae00_esp32p4.ipk
+Size: 3898
+SHA256sum: efbb3e520b2d1c9336d57aa7c89d2c7e1ed5c43b640574a07d7ac968ffe3c6b4
+Description: USB storage
+
+Package: usb-uart-ch34x
+Version: 0+89c3b021
+Depends: comp-usb-uart-ch34x, usb-uart
+Architecture: esp32p4
+Section: Developer
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 4096
+ESPHome-PSRAM: 4380
+ESPHome-IRAM: 0
+Filename: usb-uart-ch34x_0+89c3b021_esp32p4.ipk
+Size: 2612
+SHA256sum: 67793bcb4756e9b3a367ffb3c5e88c4c54af7fd0a990fc504f3a6dcc342b387a
+Description: USB serial CH34x
+
+Package: usb-uart-ch934x
+Version: 0+0c1449f5
+Depends: comp-usb-uart-ch934x, usb-uart
+Architecture: esp32p4
+Section: Developer
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 4096
+ESPHome-PSRAM: 4380
+ESPHome-IRAM: 0
+Filename: usb-uart-ch934x_0+0c1449f5_esp32p4.ipk
+Size: 2618
+SHA256sum: 9599b29268b4a8239605f1c0359326a95842bcd4393038b5e79db0cdb4fe029f
+Description: USB serial CH934x
+
+Package: usb-uart-cp210x
+Version: 0+3bc52953
+Depends: comp-usb-uart-cp210x, usb-uart
+Architecture: esp32p4
+Section: Developer
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 4096
+ESPHome-PSRAM: 4380
+ESPHome-IRAM: 0
+Filename: usb-uart-cp210x_0+3bc52953_esp32p4.ipk
+Size: 2610
+SHA256sum: 03df5f130d2c9d6333de9d22d65346338f7f59fa4e056592950e77fa602e54c0
+Description: USB serial CP210x
+
+Package: usb-uart-ft23xx
+Version: 0+a52a51ae
+Depends: comp-usb-uart-ft23xx, usb-uart
+Architecture: esp32p4
+Section: Developer
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 4096
+ESPHome-PSRAM: 4380
+ESPHome-IRAM: 0
+Filename: usb-uart-ft23xx_0+a52a51ae_esp32p4.ipk
+Size: 2626
+SHA256sum: a2fcbb96010cbd3bd5e9135599798bb2a59a65985a08bef6b13a31290e326e7c
+Description: USB serial FTDI
+
+Package: usb-uart-pl2303
+Version: 0+28053a50
+Depends: comp-usb-uart-pl2303, usb-uart
+Architecture: esp32p4
+Section: Developer
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 4096
+ESPHome-PSRAM: 4380
+ESPHome-IRAM: 0
+Filename: usb-uart-pl2303_0+28053a50_esp32p4.ipk
+Size: 2622
+SHA256sum: 631f5a82f8dc36184b926236089d1a382107faa0725dc0615fe98dbb08acb754
+Description: USB serial PL2303
+
+Package: usb-uart
+Version: 0+b18a5e41
+Depends: comp-usb-uart, usb-host
+Architecture: esp32p4
+Section: Developer
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 8192
+ESPHome-PSRAM: 11448
+ESPHome-IRAM: 0
+Filename: usb-uart_0+b18a5e41_esp32p4.ipk
+Size: 4740
+SHA256sum: 659a662149db26867bbf9b87a231d8b6e71e1c9e500952fa9f6967ec8ff728c1
+Description: USB serial
+
+Package: usb-uvc
+Version: 0+9549a4a9
+Depends: comp-usb-uvc, usb-host
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 8192
+ESPHome-PSRAM: 11244
+ESPHome-IRAM: 0
+ESPHome-Features: lvgl=1=Preview on the screen=lvgl
+Filename: usb-uvc_0+9549a4a9_esp32p4.ipk
+Size: 4634
+SHA256sum: 58fc406c393389dd296c22793a0b8a266bc81da143632985e56d1f91ce1a7e7e
+Description: USB camera
+
+Package: usb-wifi
+Version: 0+2eee77d8
+Depends: comp-usb-wifi, usb-host
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 4096
+ESPHome-PSRAM: 8048
+ESPHome-IRAM: 0
+Filename: usb-wifi_0+2eee77d8_esp32p4.ipk
+Size: 3294
+SHA256sum: 293f116757e818d3f8c0d99232d7e917045de9f780a729fb186439f7b9664ba4
+Description: USB WiFi
+
+Package: video-player
+Version: 0+df3ef612
+Depends: comp-avi, comp-media-player-queue, lvgl
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 12288
+ESPHome-PSRAM: 9392
+ESPHome-IRAM: 0
+Filename: video-player_0+df3ef612_esp32p4.ipk
+Size: 6184
+SHA256sum: d30702ac258ca358adb25748ec58aecd3ec1a8f898e0cd3dc693c32d5fc3188c
+Description: Video player (AVI)
+
+Package: vnc
+Version: 0+5fe96314
+Depends: ui
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 4096
+ESPHome-PSRAM: 4600
+ESPHome-IRAM: 0
+Filename: vnc_0+5fe96314_esp32p4.ipk
+Size: 2790
+SHA256sum: f6589d4c3019c7baf3b24ebe592392fd106d9e833c096f00030c6eb428203995
+Description: VNC
+
+Package: voice
+Version: 0+cea20e66
+Depends: comp-voice-assistant, comp-resampler, comp-speaker, comp-template, ha-api, codec-flac, audio
+Architecture: esp32p4
+Section: Apps
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 229376
+ESPHome-PSRAM: 236040
+ESPHome-IRAM: 0
+Filename: voice_0+cea20e66_esp32p4.ipk
+Size: 168252
+SHA256sum: f418368d52627338e3fa1a142b36cdf3b5264bac7a004adc0337193c39a83d86
+Description: Voice assistant
+
+Package: web-file-api
+Version: 0+501999ce
+Depends: comp-web-file-api, comp-template, web-server
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 8192
+ESPHome-PSRAM: 10840
+ESPHome-IRAM: 0
+Filename: web-file-api_0+501999ce_esp32p4.ipk
+Size: 5360
+SHA256sum: 63f950c53bee21136fdc4428e0c44f1ec031d0e6a405e99685a9fd3cafa9ca93
+Description: Web file API
+
+Package: web-file-browser
+Version: 0+d85e357c
+Depends: comp-web-file-browser, web-file-api
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 94208
+ESPHome-PSRAM: 94708
+ESPHome-IRAM: 0
+Filename: web-file-browser_0+d85e357c_esp32p4.ipk
+Size: 91642
+SHA256sum: d6e64f4abb6d6c697e9c82900bb196f08173433570d44e65a3d2932260cb1551
+Description: Web file browser
+
+Package: web-packages
+Version: 0+e0579639
+Depends: web-server
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 8192
+ESPHome-PSRAM: 8432
+ESPHome-IRAM: 0
+ESPHome-Features: upload=1=Upload packages (.ipk)=web_file_api
+Filename: web-packages_0+e0579639_esp32p4.ipk
+Size: 7356
+SHA256sum: 45f3db31602bd9db6d96d23c61aa1ab8e067df411917098eb5969749296c8c3e
+Description: Web package manager
+
+Package: web-publishing
+Version: 0+6da004ab
+Depends: web-server, ha-api|mqtt
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 8192
+ESPHome-PSRAM: 8432
+ESPHome-IRAM: 0
+Filename: web-publishing_0+6da004ab_esp32p4.ipk
+Size: 5552
+SHA256sum: 5e3b7fe538cc74ddc0fe6b68a6bc2e6dca62ed2665f843e3fd3e0f8d82f42047
+Description: Web publishing settings
+
+Package: web-server
+Version: 0+e66b7b47
+Depends: comp-web-server, api-core
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 32768
+ESPHome-PSRAM: 33724
+ESPHome-IRAM: 0
+Filename: web-server_0+e66b7b47_esp32p4.ipk
+Size: 31652
+SHA256sum: 6fdb46cabcc3199651e209c76e497ad77f5db59b2a85050aa8b5650e7600bbdf
+Description: Web server
+
+Package: web-settings
+Version: 0+38ab07ff
+Depends: comp-web-settings, web-server
+Architecture: esp32p4
+Section: Libraries
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 8192
+ESPHome-PSRAM: 8432
+ESPHome-IRAM: 0
+Filename: web-settings_0+38ab07ff_esp32p4.ipk
+Size: 5276
+SHA256sum: 67adf03743fda397f613bfca03351c7306c86bb375c9b295b25c7a4efd6cac77
+Description: Web settings
+
+Package: wifi-commands
+Version: 0+2e710365
+Architecture: esp32p4
+Section: Developer
+ESPHome-ABI: 2030545710
+ESPHome-Flash: 16384
+ESPHome-PSRAM: 13412
+ESPHome-IRAM: 0
+Filename: wifi-commands_0+2e710365_esp32p4.ipk
+Size: 7896
+SHA256sum: e41a075ef09833d26399e08f70f298f0630c07c5b172c6e44f2c1fa14845be13
+Description: Wi-Fi commands
