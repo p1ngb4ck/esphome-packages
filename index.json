@@ -1,7 +1,7 @@
 {
  "builds": [
   {
-   "id": "069df6cf",
+   "id": "a34e9f81",
    "board": "esp32p4",
    "device": "ws-esp32-p4-module-7inch-tab",
    "version": "2026.12.0-dev",
@@ -32,6 +32,7 @@
     "comp-avi",
     "comp-bme280-base",
     "comp-bme280-i2c",
+    "comp-boot-announce",
     "comp-browser",
     "comp-bt-host",
     "comp-bt-offload",
@@ -41,6 +42,7 @@
     "comp-display",
     "comp-emulator",
     "comp-es8311",
+    "comp-esp32-hosted",
     "comp-ethernet",
     "comp-fixed-containers",
     "comp-font",
@@ -76,11 +78,13 @@
     "comp-runtime-language",
     "comp-screen-capture",
     "comp-script",
+    "comp-sd-storage",
     "comp-sip-phone",
     "comp-speaker",
     "comp-stream-receiver",
     "comp-template",
     "comp-touchscreen",
+    "comp-udp",
     "comp-unicode",
     "comp-usb-audio",
     "comp-usb-bluetooth",
@@ -104,6 +108,9 @@
     "comp-web-server-idf",
     "comp-web-server",
     "comp-web-settings",
+    "comp-wifi-info",
+    "comp-wifi-signal",
+    "comp-wifi",
     "csi-camera",
     "dashboard",
     "debug",
@@ -139,6 +146,7 @@
     "emu-sms",
     "emu-snes",
     "emulator",
+    "esp32-hosted",
     "ethernet",
     "file-manager",
     "flash-programmer",
@@ -154,8 +162,8 @@
     "lib-esp-cam-sensor",
     "lib-esp-driver-cam",
     "lib-esp-driver-isp",
+    "lib-esp-driver-sdmmc",
     "lib-esp-hal-usb",
-    "lib-esp-http-server",
     "lib-esp-hw-support",
     "lib-esp-lcd",
     "lib-esp-libc",
@@ -192,7 +200,9 @@
     "remote-desktop",
     "rtsp-server",
     "screen-capture",
+    "sd-storage",
     "serial-forward-commands",
+    "serial-forwards",
     "sip-phone",
     "spice",
     "stream-receiver",
@@ -225,7 +235,7 @@
     "web-publishing",
     "web-server",
     "web-settings",
-    "wifi-commands"
+    "wifi"
    ]
   }
  ]
